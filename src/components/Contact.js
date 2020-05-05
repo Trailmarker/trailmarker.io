@@ -28,17 +28,17 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="#">info@trailmarker.io</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <span>+61 434 929 287</span>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
@@ -46,7 +46,7 @@ const Contact = (props) => (
                         Nashville, TN 00000<br />
                         United States of America</span>
                     </div>
-                </section>
+                </section> */}
             </section>
         </div>
     </section>

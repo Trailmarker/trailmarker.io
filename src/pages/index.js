@@ -15,17 +15,17 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Trailmarker"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Trailmarker — software development' },
+            { name: 'keywords', content: 'software, services, spatial, geospatial, remote sensing' },
           ]}
         ></Helmet>
 
         <Banner />
 
         <div id="main">
-          <section id="one" className="tiles">
+          {/* <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <Link
                 aria-label="Link to Landing Page"
@@ -98,8 +98,8 @@ class HomeIndex extends React.Component {
                 </header>
               </Link>
             </article>
-          </section>
-          <section id="two">
+          </section> */}
+          {/* <section id="two">
             <div className="inner">
               <header className="major">
                 <h2>Massa libero</h2>
@@ -125,7 +125,7 @@ class HomeIndex extends React.Component {
                 </li>
               </ul>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )

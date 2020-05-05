@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Theme - Forty',
     author: 'Hunter Chang',
-    description: 'A Gatsby.js Theme based on Forty by HTML5 UP',
+    description: 'A Gatsby.js Theme based on trailmarker.io based on Forty by HTML5 UP',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
