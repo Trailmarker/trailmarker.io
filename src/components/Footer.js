@@ -4,12 +4,12 @@ const Footer = props => (
   <footer id="footer">
     <div className="inner">
       <ul className="icons">
-        <li>
+        {/* <li>
           <a href="https://twitter.com/attentive" aria-label="Twitter" className="icon alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
-        {/* <li>
+        <li>
           <a href="#" aria-label="Facebook" className="icon alt fa-facebook">
             <span className="label">Facebook</span>
           </a>

@@ -31,12 +31,12 @@ const Site = (props) => (
                         Untitled (ca. 1919–1920)</a> by the Russian artist <a href="https://en.wikipedia.org/wiki/El_Lissitzky">
                         El Lissitzky</a>.
                     </p>
-                    <span className="image"><img src={lissitzky} alt="Untitled, El Lissitzky (ca. 1919–1920)" /></span>
+                    <span className="image fit"><img src={lissitzky} alt="Untitled, El Lissitzky (ca. 1919–1920)" /></span>
                     <p></p>
                     <p>
                         This site is developed and maintained in Darwin Australia, on the traditional lands of
-                        the <a href="https://en.wikipedia.org/wiki/Larrakia_people">Larrakia people</a>. We acknowledge 
-                        that sovereignty over this land was never ceded by Larrakia. 
+                        the <a href="https://en.wikipedia.org/wiki/Larrakia_people">Larrakia people</a>. Trailmarker acknowledges 
+                        that sovereignty over these lands was never ceded by Larrakia. 
                         {/* If you are living on these lands, 
                         we encourage you to <a href="https://indigenousx.com.au/reform-pay-the-rent/">pay the rent</a> by 
                         giving a part of your income to <a href="http://larrakia.com/">Larrakia Nation.</a>  */}

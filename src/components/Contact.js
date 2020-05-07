@@ -4,7 +4,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post" action="https://getsimpleform.com/messages?form_api_token=b338fce2988a01722ff17de40dcaad8d">
+                    <input type="hidden" name="redirect_to" value="https://trailmarker.github.io/trailmarker.io.new/thank-you" />
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />

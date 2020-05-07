@@ -2,10 +2,11 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme - Forty',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Theme based on trailmarker.io based on Forty by HTML5 UP',
+    title: 'Trailmarker',
+    author: 'Tom Lynch',
+    description: 'Trailmarker website based on the Forty theme by HTML5 UP',
   },
+  pathPrefix: "/trailmarker.io.new",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -17,7 +18,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/beige.png', // This path is relative to the root of the site.
       },
     },
     {
