@@ -18,7 +18,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/beige.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/trailmarker-logo.png', // This path is relative to the root of the site.
       },
     },
     {
@@ -27,7 +27,25 @@ module.exports = {
         path: path.join(__dirname, `src`, `pages`),
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-129674450-1",
+        // Setting this parameter is optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 100,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "trailmarker.io",
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+
   ],
 }
