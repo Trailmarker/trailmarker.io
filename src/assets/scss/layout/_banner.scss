@@ -11,7 +11,6 @@
 		@include vendor('background-image', 'url("../images/bungle-bungles.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		color: _palette(highlight);
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -42,7 +41,12 @@
 		}
 
 		h1 {
-			font-size: 3.25em;
+			color: _palette(highlight);
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			font-size: 5em;
 		}
 
 		> .inner {
@@ -56,8 +60,14 @@
 			position: relative;
 			z-index: 2;
 
-			.image {
-				display: none;
+			img {
+				opacity: 70%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				min-height: 18em;
+				max-height: 24em;
 			}
 
 			header {
@@ -131,13 +141,13 @@
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
-			margin-bottom: -2.75em;
-			max-height: none;
-			min-height: 0;
-			top: -2.75em;
+			//margin-bottom: -2.75em;
+			//max-height: none;
+			//min-height: 0;
+			//top: -2.75em;
 
 			h1 {
-				font-size: 2em;
+				font-size: 3.5em;
 			}
 
 			> .inner {
@@ -153,8 +163,8 @@
 
 			&.major {
 				height: auto;
-				min-height: 0;
-				max-height: none;
+				//min-height: 0;
+				//max-height: none;
 			}
 		}
 
