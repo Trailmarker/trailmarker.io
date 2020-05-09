@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
             </article>
             <article>
               <Link
-                aria-label="Spatial intelligence"
+                aria-label="Spatial thinking"
                 to="#spatial-thinking"
                 className="link primary"
               >
