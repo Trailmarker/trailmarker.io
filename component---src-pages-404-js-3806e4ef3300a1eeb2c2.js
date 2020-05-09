@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),r=t("Bl7J");n.default=function(){return l.a.createElement(r.a,null,l.a.createElement("div",{id:"main",className:"alt"},l.a.createElement("section",{id:"one"},l.a.createElement("div",{className:"inner"},l.a.createElement("h1",null,"Not found"),l.a.createElement("p",null,"The route or page you referenced doesn't seem to be here.")))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-3806e4ef3300a1eeb2c2.js.map
