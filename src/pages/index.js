@@ -4,8 +4,6 @@ import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
 
-// import lissitzky from '../assets/images/el-lissitzky-untitled.jpg'
-
 class HomeIndex extends React.Component {
   render() {
     return (
