@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
 
+import tongariro from '../assets/images/tongariro.jpg'
+import nightcliff from '../assets/images/nightcliff-jetty.jpg'
+
 class HomeIndex extends React.Component {
   render() {
     return (
@@ -20,27 +23,27 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article>
+            <article style={{ backgroundImage: `url(${tongariro})` }}>
               <Link
-                aria-label="Lean service"
-                to="#lean-service"
+                aria-label="Travel light"
+                to="#travel-light"
                 className="link primary"
               >
                 <header className="major">
                   <h3>Travel light</h3>
-                  <p>Use tools you can carry.</p>
+                  <p>Use tools you can carry</p>
                 </header>
               </Link>
             </article>
-            <article>
+            <article style={{ backgroundImage: `url(${nightcliff})` }}>
               <Link
-                aria-label="Spatial thinking"
-                to="#spatial-thinking"
+                aria-label="Plan ahead"
+                to="#plan-ahead"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Plan your route</h3>
-                  <p>The map is not the territory.</p>
+                  <h3>Plan ahead</h3>
+                  <p>The map is not the territory</p>
                 </header>
               </Link>
             </article>
@@ -48,20 +51,22 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <a name="lean-service"><h2>Lean service</h2></a>
+                <a name="travel-light"><h2>Travel light</h2></a>
               </header>
               <p>
-                Trailmarker offers a nimble software development service. Deliver for your
+                The best tools are the ones that don't weigh you down. Trailmarker offers a 
+                lean and nimble software development service. Deliver for your
                 organisation, your clients and your users without a caravan of overheads.
               </p>
             </div>
             <div className="inner">
               <header className="major">
-                <a name="spatial-thinking"><h2>Spatial thinking</h2></a>
+                <a name="plan-ahead"><h2>Plan ahead</h2></a>
               </header>
               <p>
-                Work smarter, not harder. A bird's eye view is great, but what 
-                about understanding the wind?
+                We want you to work smarter, not harder. A bird's eye view is good, but the 
+                map is not the territory. Trailmarker is about spatial thinking that lets  
+                you put your feet up later. 
               </p>
             </div>
           </section>
