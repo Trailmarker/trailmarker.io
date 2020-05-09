@@ -6,7 +6,6 @@ module.exports = {
     author: 'Tom Lynch',
     description: 'Trailmarker website based on the Forty theme by HTML5 UP',
   },
-  pathPrefix: "/trailmarker.io.new",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
