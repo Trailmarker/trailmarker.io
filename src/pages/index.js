@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
-import Banner from '../components/Banner'
+import Banner from '../components/banner'
 import Layout from '../components/layout'
 
 import tongariro from '../assets/images/tongariro.jpg'
@@ -12,11 +12,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Trailmarker"
-          meta={[
-            { name: 'description', content: 'Trailmarker — software development' },
-            { name: 'keywords', content: 'software, services, spatial, geospatial, remote sensing' },
-          ]}
+          title="Home"
         ></Helmet>
 
         <Banner />
@@ -64,7 +60,7 @@ class HomeIndex extends React.Component {
                 <a name="plan-ahead"><h2>Plan ahead</h2></a>
               </header>
               <p>
-                We want you to work smarter, not harder. A bird's eye view is good, but the 
+                Work smarter, not harder. A bird's eye view is a good start, but the 
                 map is not the territory. Trailmarker is about spatial thinking that lets  
                 you put your feet up later. 
               </p>

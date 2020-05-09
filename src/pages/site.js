@@ -6,9 +6,12 @@ import lissitzky from '../assets/images/el-lissitzky-untitled.jpg'
 
 const Site = (props) => (
     <Layout>
-        <Helmet>
-            <title>About trailmarker.io</title>
-            <meta name="description" content="Site description" />
+        <Helmet
+            title="About trailmarker.io"
+            meta={[
+                { name: 'description', content: 'Trailmarker — about trailmarker.io' },
+            ]}
+        >
         </Helmet>
 
         <div id="main" className="alt">

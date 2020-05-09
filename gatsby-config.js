@@ -4,7 +4,11 @@ module.exports = {
   siteMetadata: {
     title: 'Trailmarker',
     author: 'Tom Lynch',
-    description: 'Trailmarker website based on the Forty theme by HTML5 UP',
+    description: 'Trailmarker — software development services',
+    keywords: 'software, mobile, app, app development, spatial, geospatial, remote sensing',
+    social: {
+      twitter: '@attentive'
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',
