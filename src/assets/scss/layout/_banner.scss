@@ -33,7 +33,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.4;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -42,11 +42,8 @@
 
 		h1 {
 			color: _palette(highlight);
-			position: absolute;
-			top: 30%;
-			left: 50%;
-			transform: translate(-50%,-50%);
 			font-size: 5em;
+			text-shadow: 1px 1px 1px #b69025;
 		}
 
 		> .inner {
@@ -61,7 +58,7 @@
 			z-index: 2;
 
 			img {
-				opacity: 0.5;
+				opacity: 0.8;
 				position: absolute;
 				top: 50%;
 				left: 50%;
@@ -71,7 +68,9 @@
 			}
 
 			header {
-				width: auto;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%,-70%);
 
 				> :first-child {
 					width: auto;

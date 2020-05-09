@@ -7,7 +7,7 @@ const Banner = props => (
     <div className="inner">
       <img src={logo} alt="" />
       <header>
-        <h1>Trailmarker.</h1>
+        <h1>Trailmarker</h1>
       </header>
       {/* <div className="content">
         <a href="mailto:info@trailmarker.io">
