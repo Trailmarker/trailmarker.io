@@ -50,7 +50,7 @@ class HomeIndex extends React.Component {
                 <a name="travel-light"><h2>Travel light</h2></a>
               </header>
               <p>
-                The best tools are the ones that don't weigh you down. Trailmarker offers a 
+                The most useful tools don't weigh you down. Trailmarker offers a 
                 lean and nimble software development service. Deliver for your
                 organisation, your clients and your users without a caravan of overheads.
               </p>
