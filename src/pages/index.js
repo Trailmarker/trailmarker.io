@@ -1,6 +1,7 @@
 // import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 // import pic01 from '../assets/images/pic01.jpg'
 // import pic02 from '../assets/images/pic02.jpg'
 // import pic03 from '../assets/images/pic03.jpg'
@@ -9,6 +10,8 @@ import Helmet from 'react-helmet'
 // import pic06 from '../assets/images/pic06.jpg'
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
+
+// import lissitzky from '../assets/images/el-lissitzky-untitled.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -25,6 +28,52 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
+          <section id="one" className="tiles">
+            <article>
+              <Link
+                aria-label="Lean service"
+                to="#lean-service"
+                className="link primary"
+              >
+                <header className="major">
+                  <h3>Travel light</h3>
+                  <p>Use tools you can carry.</p>
+                </header>
+              </Link>
+            </article>
+            <article>
+              <Link
+                aria-label="Spatial intelligence"
+                to="#spatial-thinking"
+                className="link primary"
+              >
+                <header className="major">
+                  <h3>Plan your route</h3>
+                  <p>The map is not the territory.</p>
+                </header>
+              </Link>
+            </article>
+          </section>
+          <section id="two">
+            <div className="inner">
+              <header className="major">
+                <a name="lean-service"><h2>Lean service</h2></a>
+              </header>
+              <p>
+                Trailmarker offers a nimble software development service. Deliver for your
+                organisation, your clients and your users without a caravan of overheads.
+              </p>
+            </div>
+            <div className="inner">
+              <header className="major">
+                <a name="spatial-thinking"><h2>Spatial thinking</h2></a>
+              </header>
+              <p>
+                Work smarter, not harder. A bird's eye view is great, but what 
+                about understanding the wind?
+              </p>
+            </div>
+          </section>
           {/* <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <Link
@@ -99,7 +148,8 @@ class HomeIndex extends React.Component {
               </Link>
             </article>
           </section> */}
-          {/* <section id="two">
+          {/* 
+          <section id="two">
             <div className="inner">
               <header className="major">
                 <h2>Massa libero</h2>
