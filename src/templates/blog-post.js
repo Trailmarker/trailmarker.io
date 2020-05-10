@@ -1,11 +1,12 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { useLocalRemarkForm } from 'gatsby-tinacms-remark'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
+  const [post] = useLocalRemarkForm(data.markdownRemark)
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
@@ -61,6 +62,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      ...TinaRemark
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
