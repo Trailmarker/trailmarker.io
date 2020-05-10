@@ -1,8 +1,9 @@
 ---
-title: Hello World
+title: Hello World [Draft]
 date: "2015-06-01T22:12:03.284Z"
 description: "Hello World"
 image: "./salty_egg.jpg"
+draft: true
 ---
 
 This is my first post on my new fake blog! How exciting!

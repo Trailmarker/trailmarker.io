@@ -11,6 +11,16 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-draft',
+      options: {
+        // Default is 'draft'
+        // fieldName: 'notReleased',
+        timezone: 'Australia/Darwin',
+        // Default is false
+        // publishDraft: process.env.NODE_ENV !== 'production',
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
