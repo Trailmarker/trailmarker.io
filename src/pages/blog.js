@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const BlogIndex = (props) => {
   const siteTitle = props.data.site.siteMetadata.title
@@ -10,29 +9,37 @@ const BlogIndex = (props) => {
 
   return (
     <Layout location={props.location} title={siteTitle}>
-      <SEO title="All posts" />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
+      <div id="main">
+        <section className="tiles">
+          {posts.map(({ node }) => {
+
+            const title = node.frontmatter.title || node.fields.slug
+            const backgroundStyle = node.frontmatter.image ?
+              { backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})` } : {};
+
+            return (
+              <article key={node.fields.slug}
+                style={backgroundStyle} >
+                <Link
+                  aria-label={title}
+                  to={node.fields.slug}
+                  className="link primary"
+                >
+                  <header className="major">
+                    <h3>{title}</h3>
+                    <small>{node.frontmatter.date}</small>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: node.frontmatter.description || node.excerpt,
+                      }}
+                    />
+                  </header>
                 </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        )
-      })}
+              </article>
+            )
+          })}
+        </section>
+      </div>
     </Layout>
   )
 }
@@ -57,6 +64,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
