@@ -1,8 +1,8 @@
 ---
-title: Hello World
-date: "2015-08-01T22:12:03.284Z"
-description: "Hello World"
-image: "./salty_egg.jpg"
+title: Testing editing
+date: '2015-08-01T22:12:03.284Z'
+description: Testing editing using TinaCMS
+image: ./salty_egg.jpg
 ---
 
 This is my first post on my new fake blog! How exciting!
