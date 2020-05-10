@@ -1,5 +1,5 @@
 ---
-title: Testing editing
+title: Testing editing without Git
 date: '2015-08-01T22:12:03.284Z'
 description: Testing editing using TinaCMS
 image: ./salty_egg.jpg
