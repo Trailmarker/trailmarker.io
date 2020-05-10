@@ -31,11 +31,8 @@ const Footer = props => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Trailmarker 2020</li>
+        <li>&copy; Trailmarker {new Date().getFullYear()}</li>
         <li>This site is developed and maintained on Larrakia country.</li>
-        {/* <li>
-          Design: <a href="https://html5up.net">HTML5 UP</a>
-        </li> */}
       </ul>
     </div>
   </footer>
