@@ -7,8 +7,8 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
-                {/* <li><Link onClick={props.onToggleMenu} to="/portfolio">Portfolio</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/blog">Blog</Link></li> */}
+                {/* <li><Link onClick={props.onToggleMenu} to="/portfolio">Portfolio</Link></li>*/}
+                <li><Link onClick={props.onToggleMenu} to="/blog">Blog</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/site">About trailmarker.io</Link></li>
             </ul>
             {/* <ul className="links">
@@ -22,7 +22,7 @@ const Menu = (props) => (
                 <li><a href="#" className="button fit">Log In</a></li>
             </ul> */}
         </div>
-        <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
+        <a className="close" onClick={props.onToggleMenu} href="#">Close</a>
     </nav>
 )
 
