@@ -18,7 +18,7 @@ module.exports = {
         // fieldName: 'notReleased',
         timezone: 'Australia/Darwin',
         // Default is false
-        // publishDraft: process.env.NODE_ENV !== 'production',
+        publishDraft: process.env.NODE_ENV !== 'production',
       },
     },
     {
