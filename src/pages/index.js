@@ -27,7 +27,7 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Travel light</h3>
-                  <p>Use tools you can carry</p>
+                  <p className="fancy">Use tools you can carry</p>
                 </header>
               </Link>
             </article>
@@ -39,7 +39,7 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Plan ahead</h3>
-                  <p>The map is not the territory</p>
+                  <p className="fancy">The map is not the territory</p>
                 </header>
               </Link>
             </article>
