@@ -1,0 +1,9 @@
+packages:
+  - .
+
+# Astro's image pipeline needs sharp's native binary, and esbuild fetches
+# its platform binary the same way. Both build at install or the site does
+# not build.
+allowBuilds:
+  esbuild: true
+  sharp: true
