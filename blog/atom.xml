@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://trailmarker.io/blog/</id>
+    <title>Trailmarker's blog</title>
+    <updated>1970-01-01T00:00:00.000Z</updated>
+    <author>
+        <name>Trailmarker</name>
+    </author>
+    <link rel="alternate" href="https://trailmarker.io/blog/"/>
+    <link rel="self" href="https://trailmarker.io/blog/atom.xml"/>
+    <subtitle>Posts from Trailmarker on deciding, estimating and building software. Each post shows its working.</subtitle>
+</feed>

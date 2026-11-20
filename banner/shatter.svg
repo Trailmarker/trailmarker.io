@@ -1,0 +1,367 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" data-in="2" data-out="2">
+<style>
+:root { color-scheme: light dark; }
+.field { fill: var(--color-field, light-dark(#fcfcfa, #191a1b)); }
+.t0 { fill: var(--color-tile-shade, light-dark(#1b1b19, #dcdcd8)); stroke: var(--tile-gap-colour, var(--color-tile-shade, light-dark(#1b1b19, #dcdcd8))); stroke-width: var(--tile-gap, 0.7); stroke-linejoin: round; }
+.t1 { fill: var(--color-tile-side, light-dark(#5f5f5a, #9a9a94)); stroke: var(--tile-gap-colour, var(--color-tile-side, light-dark(#5f5f5a, #9a9a94))); stroke-width: var(--tile-gap, 0.7); stroke-linejoin: round; }
+.t2 { fill: var(--color-tile-thin, light-dark(#d8d8d2, #3a3c3f)); stroke: var(--tile-gap-colour, var(--color-tile-thin, light-dark(#d8d8d2, #3a3c3f))); stroke-width: var(--tile-gap, 0.7); stroke-linejoin: round; }
+.t3 { fill: var(--color-tile-top, light-dark(#f2f2ee, #212325)); stroke: var(--tile-gap-colour, var(--color-tile-top, light-dark(#f2f2ee, #212325))); stroke-width: var(--tile-gap, 0.7); stroke-linejoin: round; }
+.flat { fill: var(--color-rule, light-dark(#d8d8d2, #3a3c3f)); stroke: var(--color-rule, light-dark(#d8d8d2, #3a3c3f)); stroke-width: 0.7; }
+.tile { --o: 0; --x: 0px; --y: 0px; --r: 0deg; --s: 1; transform-box: fill-box; transform-origin: center; opacity: var(--o); transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(var(--s)); transition: opacity var(--d) cubic-bezier(0.64, 0, 0.78, 0) var(--out), transform var(--d) cubic-bezier(0.64, 0, 0.78, 0) var(--out); }
+svg:hover .tile, svg.on .tile { opacity: 1; transform: none; transition-delay: var(--in); transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1); }
+@media (prefers-reduced-motion: reduce) { .tile { opacity: 1; transform: none; transition: none; } }
+</style>
+<rect class="field" width="1200" height="420"/>
+<polygon class="tile t0" points="930.87,0 961,0 961,27.29 925.73,38.75 925.73,1.67" style="--in: 0.59s; --out: 0.21s; --d: 1.2s; --o: 1; --x: 265.7px; --y: -148.98px; --r: -256.21deg"/>
+<polygon class="tile t0" points="816.75,0 846.87,0 846.87,27.29 811.6,38.75 811.6,1.67" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: 339.17px; --y: -92.16px; --r: -55.2deg"/>
+<polygon class="tile t0" points="746.21,0 776.34,0 776.34,27.29 741.07,38.75 741.07,1.67" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: 175.55px; --y: -112.85px; --r: 35.71deg"/>
+<polygon class="tile t0" points="632.09,0 662.21,0 662.21,27.29 626.94,38.75 626.94,1.67" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: -50.3px; --y: -188px; --r: 27.46deg"/>
+<polygon class="tile t0" points="561.55,0 591.67,0 591.67,27.29 556.41,38.75 556.41,1.67" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: -62.13px; --y: -191.25px; --r: -141.7deg"/>
+<polygon class="tile t0" points="447.43,0 477.55,0 477.55,27.29 442.28,38.75 442.28,1.67" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: -76.38px; --y: -95.56px; --r: -69.76deg"/>
+<polygon class="tile t0" points="333.3,0 363.42,0 363.42,27.29 328.15,38.75 328.15,1.67" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -251.25px; --y: -93.62px; --r: 180.26deg"/>
+<polygon class="tile t0" points="1075.12,87.29 1075.12,124.38 1039.86,135.84 1039.86,98.75" style="--in: 0.7s; --out: 0.1s; --d: 1.2s; --o: 1; --x: 274.96px; --y: -126.61px; --r: 346.13deg"/>
+<polygon class="tile t0" points="961,87.29 961,124.38 925.73,135.84 925.73,98.75" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: 429.44px; --y: 79.24px; --r: 29.68deg"/>
+<polygon class="tile t0" points="868.67,57.29 868.67,94.38 833.4,105.84 833.4,68.75" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: 196.2px; --y: -163.93px; --r: 338.35deg"/>
+<polygon class="tile t0" points="776.34,87.29 776.34,124.38 741.07,135.84 741.07,98.75" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: 313.38px; --y: -187.47px; --r: 88.91deg"/>
+<polygon class="tile t0" points="684.01,57.29 684.01,94.38 648.74,105.84 648.74,68.75" style="--in: 0.2s; --out: 0.6s; --d: 1.2s; --o: 1; --x: 201.72px; --y: -214.95px; --r: 300.45deg"/>
+<polygon class="tile t0" points="591.67,87.29 591.67,124.38 556.41,135.84 556.41,98.75" style="--in: 0.14s; --out: 0.66s; --d: 1.2s; --o: 1; --x: -207.73px; --y: -237.68px; --r: -29.28deg"/>
+<polygon class="tile t0" points="477.55,87.29 477.55,124.38 442.28,135.84 442.28,98.75" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: -620.67px; --y: -109.66px; --r: 253.9deg"/>
+<polygon class="tile t0" points="385.22,57.29 385.22,94.38 349.95,105.84 349.95,68.75" style="--in: 0.39s; --out: 0.41s; --d: 1.2s; --o: 1; --x: -250.2px; --y: -170.36px; --r: 244.71deg"/>
+<polygon class="tile t0" points="292.89,87.29 292.89,124.38 257.62,135.84 257.62,98.75" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: -414.64px; --y: -130px; --r: 182.18deg"/>
+<polygon class="tile t0" points="178.76,87.29 178.76,124.38 143.49,135.84 143.49,98.75" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: -348.73px; --y: 46.1px; --r: 131.97deg"/>
+<polygon class="tile t0" points="1018.06,165.84 1018.06,202.92 982.79,214.38 982.79,177.29" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: 294.28px; --y: 71.22px; --r: 217.7deg"/>
+<polygon class="tile t0" points="903.93,165.84 903.93,202.92 868.67,214.38 868.67,177.29" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: 392.02px; --y: -155.69px; --r: 255.76deg"/>
+<polygon class="tile t0" points="833.4,165.84 833.4,202.92 798.13,214.38 798.13,177.29" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 576.64px; --y: 159.18px; --r: -20.23deg"/>
+<polygon class="tile t0" points="719.27,165.84 719.27,202.92 684.01,214.38 684.01,177.29" style="--in: 0.14s; --out: 0.66s; --d: 1.2s; --o: 1; --x: 566.4px; --y: -252.42px; --r: 104.92deg"/>
+<polygon class="tile t0" points="626.94,195.84 626.94,232.92 591.67,244.38 591.67,207.29" style="--in: 0s; --out: 0.8s; --d: 1.2s; --o: 1; --x: 216.48px; --y: 374.26px; --r: -157.05deg"/>
+<polygon class="tile t0" points="534.61,165.84 534.61,202.92 499.34,214.38 499.34,177.29" style="--in: 0.11s; --out: 0.69s; --d: 1.2s; --o: 1; --x: -678.77px; --y: 33.69px; --r: 219.64deg"/>
+<polygon class="tile t0" points="420.48,165.84 420.48,202.92 385.22,214.38 385.22,177.29" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: -425.25px; --y: -269.13px; --r: -12.81deg"/>
+<polygon class="tile t0" points="328.15,195.84 328.15,232.92 292.89,244.38 292.89,207.29" style="--in: 0.43s; --out: 0.37s; --d: 1.2s; --o: 1; --x: -436.29px; --y: -164.13px; --r: 64.44deg"/>
+<polygon class="tile t0" points="235.82,165.84 235.82,202.92 200.56,214.38 200.56,177.29" style="--in: 0.57s; --out: 0.23s; --d: 1.2s; --o: 1; --x: -376.34px; --y: 169.63px; --r: 301.74deg"/>
+<polygon class="tile t0" points="121.7,165.84 121.7,202.92 86.43,214.38 86.43,177.29" style="--in: 0.75s; --out: 0.05s; --d: 1.2s; --o: 1; --x: -293.75px; --y: -112.89px; --r: 115.46deg"/>
+<polygon class="tile t0" points="1018.06,262.92 1018.06,300 982.79,311.46 982.79,274.38" style="--in: 0.61s; --out: 0.19s; --d: 1.2s; --o: 1; --x: 380.41px; --y: -24.39px; --r: -207.59deg"/>
+<polygon class="tile t0" points="925.73,232.92 925.73,270 890.46,281.46 890.46,244.38" style="--in: 0.46s; --out: 0.34s; --d: 1.2s; --o: 1; --x: 367.22px; --y: 192.7px; --r: 234.35deg"/>
+<polygon class="tile t0" points="833.4,262.92 833.4,300 798.13,311.46 798.13,274.38" style="--in: 0.33s; --out: 0.47s; --d: 1.2s; --o: 1; --x: 506.96px; --y: 4.09px; --r: -131.95deg"/>
+<polygon class="tile t0" points="719.27,262.92 719.27,300 684.01,311.46 684.01,274.38" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: 196.53px; --y: 219.63px; --r: -74.7deg"/>
+<polygon class="tile t0" points="648.74,262.92 648.74,300 613.47,311.46 613.47,274.38" style="--in: 0.11s; --out: 0.69s; --d: 1.2s; --o: 1; --x: 270.39px; --y: 224.78px; --r: -56.74deg"/>
+<polygon class="tile t0" points="534.61,262.92 534.61,300 499.34,311.46 499.34,274.38" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: -130.08px; --y: 285.35px; --r: -86.09deg"/>
+<polygon class="tile t0" points="420.48,262.92 420.48,300 385.22,311.46 385.22,274.38" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: -565.86px; --y: 84.3px; --r: -49.52deg"/>
+<polygon class="tile t0" points="349.95,262.92 349.95,300 314.68,311.46 314.68,274.38" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -492.81px; --y: -42.77px; --r: 223.4deg"/>
+<polygon class="tile t0" points="235.82,262.92 235.82,300 200.56,311.46 200.56,274.38" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: -360.81px; --y: 134.86px; --r: -218.67deg"/>
+<polygon class="tile t0" points="143.49,232.92 143.49,270 108.23,281.46 108.23,244.38" style="--in: 0.71s; --out: 0.09s; --d: 1.2s; --o: 1; --x: -226.21px; --y: -94.83px; --r: -175.06deg"/>
+<polygon class="tile t0" points="961,341.46 961,378.54 925.73,390 925.73,352.92" style="--in: 0.56s; --out: 0.24s; --d: 1.2s; --o: 1; --x: 361.96px; --y: -0.37px; --r: 189.45deg"/>
+<polygon class="tile t0" points="868.67,371.46 868.67,408.54 833.4,420 833.4,382.92" style="--in: 0.46s; --out: 0.34s; --d: 1.2s; --o: 1; --x: 95.54px; --y: 105.5px; --r: -89.11deg"/>
+<polygon class="tile t0" points="776.34,341.46 776.34,378.54 741.07,390 741.07,352.92" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 220.63px; --y: 184.66px; --r: -31.73deg"/>
+<polygon class="tile t0" points="684.01,371.46 684.01,408.54 648.74,420 648.74,382.92" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: 55.6px; --y: 211.82px; --r: 163.06deg"/>
+<polygon class="tile t0" points="569.88,371.46 569.88,408.54 534.61,420 534.61,382.92" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: -18.45px; --y: 157.41px; --r: -95.26deg"/>
+<polygon class="tile t0" points="477.55,341.46 477.55,378.54 442.28,390 442.28,352.92" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -53.36px; --y: 149.75px; --r: -155.66deg"/>
+<polygon class="tile t0" points="385.22,371.46 385.22,408.54 349.95,420 349.95,420 349.95,382.92" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: -108.89px; --y: 127.85px; --r: 55.22deg"/>
+<polygon class="tile t3" points="1075.12,87.29 1039.86,98.75 1018.06,68.75 1053.33,57.29" style="--in: 0.7s; --out: 0.1s; --d: 1.2s; --o: 1; --x: 333.45px; --y: 62.18px; --r: 209.62deg"/>
+<polygon class="tile t3" points="1018.06,262.92 982.79,274.38 961,244.38 996.26,232.92" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: 360.08px; --y: 140.02px; --r: 300.74deg"/>
+<polygon class="tile t3" points="982.79,154.38 947.53,165.84 925.73,135.84 961,124.38" style="--in: 0.54s; --out: 0.26s; --d: 1.2s; --o: 1; --x: 387.04px; --y: 3.27px; --r: -304.5deg"/>
+<polygon class="tile t3" points="982.79,57.29 947.53,68.75 925.73,38.75 961,27.29" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: 272.81px; --y: -128.56px; --r: -264.46deg"/>
+<polygon class="tile t3" points="925.73,330 890.46,341.46 868.67,311.46 903.93,300" style="--in: 0.47s; --out: 0.33s; --d: 1.2s; --o: 1; --x: 478.76px; --y: 181.69px; --r: -147.6deg"/>
+<polygon class="tile t3" points="925.73,232.92 890.46,244.38 868.67,214.38 903.93,202.92" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: 444.02px; --y: 144.52px; --r: -252.69deg"/>
+<polygon class="tile t3" points="890.46,124.38 855.2,135.84 833.4,105.84 868.67,94.38" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: 464.32px; --y: 54.76px; --r: -147.43deg"/>
+<polygon class="tile t3" points="868.67,57.29 833.4,68.75 811.6,38.75 846.87,27.29" style="--in: 0.43s; --out: 0.37s; --d: 1.2s; --o: 1; --x: 444.85px; --y: -111.9px; --r: 168.19deg"/>
+<polygon class="tile t3" points="876.99,420 833.4,420 833.4,420 868.67,408.54" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: 217.42px; --y: 85.25px; --r: -193.03deg"/>
+<polygon class="tile t3" points="868.67,371.46 833.4,382.92 811.6,352.92 846.87,341.46" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: 133.56px; --y: 170.43px; --r: 341.78deg"/>
+<polygon class="tile t3" points="833.4,262.92 798.13,274.38 776.34,244.38 811.6,232.92" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: 559.37px; --y: 194.84px; --r: 15.5deg"/>
+<polygon class="tile t3" points="833.4,165.84 798.13,177.29 776.34,147.29 811.6,135.84" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 515.14px; --y: -246.42px; --r: 317.47deg"/>
+<polygon class="tile t3" points="776.34,87.29 741.07,98.75 719.27,68.75 754.54,57.29" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: 163.35px; --y: -270.59px; --r: 185.98deg"/>
+<polygon class="tile t3" points="762.86,420 719.27,420 719.27,420 754.54,408.54" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: 120.95px; --y: 134.83px; --r: -85.69deg"/>
+<polygon class="tile t3" points="776.34,341.46 741.07,352.92 719.27,322.92 754.54,311.46" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: 303.26px; --y: 195.36px; --r: -347.96deg"/>
+<polygon class="tile t3" points="741.07,232.92 705.8,244.38 684.01,214.38 719.27,202.92" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: 697.72px; --y: 80.07px; --r: -154.47deg"/>
+<polygon class="tile t3" points="684.01,154.38 648.74,165.84 626.94,135.84 662.21,124.38" style="--in: 0.11s; --out: 0.69s; --d: 1.2s; --o: 1; --x: 353.84px; --y: -250.1px; --r: -209.32deg"/>
+<polygon class="tile t3" points="684.01,57.29 648.74,68.75 626.94,38.75 662.21,27.29" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: 105.72px; --y: -116.96px; --r: -141.47deg"/>
+<polygon class="tile t3" points="684.01,371.46 648.74,382.92 626.94,352.92 662.21,341.46" style="--in: 0.23s; --out: 0.57s; --d: 1.2s; --o: 1; --x: -24.6px; --y: 163.34px; --r: 251.31deg"/>
+<polygon class="tile t3" points="648.74,262.92 613.47,274.38 591.67,244.38 626.94,232.92" style="--in: 0.05s; --out: 0.75s; --d: 1.2s; --o: 1; --x: 117.91px; --y: 346.62px; --r: 93.83deg"/>
+<polygon class="tile t3" points="626.94,195.84 591.67,207.29 569.88,177.29 605.15,165.84" style="--in: 0.02s; --out: 0.78s; --d: 1.2s; --o: 1; --x: -75.73px; --y: -364.13px; --r: -340.93deg"/>
+<polygon class="tile t3" points="591.67,87.29 556.41,98.75 534.61,68.75 569.88,57.29" style="--in: 0.19s; --out: 0.61s; --d: 1.2s; --o: 1; --x: -66.62px; --y: -197.37px; --r: -16.51deg"/>
+<polygon class="tile t3" points="561.55,0 556.41,1.67 555.19,0" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: -44.56px; --y: -69.27px; --r: 44.68deg"/>
+<polygon class="tile t3" points="578.2,420 534.61,420 569.88,408.54" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -13.9px; --y: 184.56px; --r: 75.7deg"/>
+<polygon class="tile t3" points="591.67,341.46 556.41,352.92 534.61,322.92 569.88,311.46" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: -184.89px; --y: 241.09px; --r: 73.31deg"/>
+<polygon class="tile t3" points="534.61,262.92 499.34,274.38 477.55,244.38 512.81,232.92" style="--in: 0.14s; --out: 0.66s; --d: 1.2s; --o: 1; --x: -401.33px; --y: 303.46px; --r: -179.09deg"/>
+<polygon class="tile t3" points="534.61,165.84 499.34,177.29 477.55,147.29 512.81,135.84" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: -715.37px; --y: -66.34px; --r: 28.81deg"/>
+<polygon class="tile t3" points="499.34,57.29 464.08,68.75 442.28,38.75 477.55,27.29" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -79.1px; --y: -187.43px; --r: 80.34deg"/>
+<polygon class="tile t3" points="499.34,408.54 464.08,420 464.08,420 442.28,390 477.55,378.54" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: -14.3px; --y: 111.46px; --r: 125.78deg"/>
+<polygon class="tile t3" points="477.55,341.46 442.28,352.92 420.48,322.92 455.75,311.46" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: -240.99px; --y: 168.36px; --r: 325.46deg"/>
+<polygon class="tile t3" points="442.28,232.92 407.01,244.38 385.22,214.38 420.48,202.92" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: -549.98px; --y: 244.81px; --r: -256.32deg"/>
+<polygon class="tile t3" points="407.01,124.38 371.75,135.84 349.95,105.84 385.22,94.38" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: -287.38px; --y: -206.07px; --r: -263.42deg"/>
+<polygon class="tile t3" points="385.22,57.29 349.95,68.75 328.15,38.75 363.42,27.29" style="--in: 0.43s; --out: 0.37s; --d: 1.2s; --o: 1; --x: -449.47px; --y: -60.28px; --r: -221.9deg"/>
+<polygon class="tile t3" points="420.48,420 420.48,420 420.48,420" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -79.47px; --y: 86.29px; --r: 329.25deg"/>
+<polygon class="tile t3" points="385.22,371.46 349.95,382.92 328.15,352.92 363.42,341.46" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: -541.27px; --y: 56.93px; --r: 123.54deg"/>
+<polygon class="tile t3" points="349.95,262.92 314.68,274.38 292.89,244.38 328.15,232.92" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -525.25px; --y: -100.8px; --r: -343.72deg"/>
+<polygon class="tile t3" points="349.95,165.84 314.68,177.29 292.89,147.29 328.15,135.84" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: -440.95px; --y: 85.9px; --r: -292.62deg"/>
+<polygon class="tile t3" points="292.89,87.29 257.62,98.75 235.82,68.75 271.09,57.29" style="--in: 0.54s; --out: 0.26s; --d: 1.2s; --o: 1; --x: -317.1px; --y: -162.74px; --r: -169.68deg"/>
+<polygon class="tile t3" points="292.89,341.46 257.62,352.92 235.82,322.92 271.09,311.46" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: -258.89px; --y: 162.6px; --r: 173.48deg"/>
+<polygon class="tile t3" points="257.62,232.92 222.35,244.38 200.56,214.38 235.82,202.92" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: -385.55px; --y: -44.1px; --r: -335.49deg"/>
+<polygon class="tile t3" points="200.56,154.38 165.29,165.84 143.49,135.84 178.76,124.38" style="--in: 0.65s; --out: 0.15s; --d: 1.2s; --o: 1; --x: -340.42px; --y: -27.27px; --r: -247.43deg"/>
+<polygon class="tile t3" points="165.29,300 130.02,311.46 108.23,281.46 143.49,270" style="--in: 0.71s; --out: 0.09s; --d: 1.2s; --o: 1; --x: -206.66px; --y: 60.97px; --r: -301.06deg"/>
+<polygon class="tile t3" points="143.49,232.92 108.23,244.38 86.43,214.38 121.7,202.92" style="--in: 0.73s; --out: 0.07s; --d: 1.2s; --o: 1; --x: -240.58px; --y: 77.51px; --r: -26.47deg"/>
+<polygon class="tile t2" points="833.4,420 833.4,420 833.4,420" style="--in: 0.46s; --out: 0.34s; --d: 1.2s; --o: 1; --x: 38.66px; --y: 79.3px; --r: -344.55deg"/>
+<polygon class="tile t2" points="719.27,420 719.27,420 719.27,420" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: 8.88px; --y: 46.09px; --r: -293.05deg"/>
+<polygon class="tile t2" points="789.81,420 762.86,420 754.54,408.54 776.34,378.54 798.13,408.54" style="--in: 0.39s; --out: 0.41s; --d: 1.2s; --o: 1; --x: 50.89px; --y: 186.34px; --r: -116.74deg"/>
+<polygon class="tile t2" points="868.67,371.46 846.87,341.46 868.67,311.46 890.46,341.46" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: 455.56px; --y: 39.84px; --r: -115.78deg"/>
+<polygon class="tile t2" points="925.73,330 903.93,300 925.73,270 947.53,300" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: 298.85px; --y: 224.38px; --r: -300.93deg"/>
+<polygon class="tile t2" points="1018.06,262.92 996.26,232.92 1018.06,202.92 1039.86,232.92" style="--in: 0.63s; --out: 0.17s; --d: 1.2s; --o: 1; --x: 330.83px; --y: 172.89px; --r: -275.97deg"/>
+<polygon class="tile t2" points="534.61,420 534.61,420 534.61,420" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 9.02px; --y: 105.94px; --r: -293.7deg"/>
+<polygon class="tile t2" points="648.74,420 605.15,420 605.15,420 626.94,390 648.74,420" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -0.07px; --y: 158.51px; --r: -336.9deg"/>
+<polygon class="tile t2" points="684.01,371.46 662.21,341.46 684.01,311.46 705.8,341.46" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 69.06px; --y: 258.37px; --r: 299.02deg"/>
+<polygon class="tile t2" points="776.34,341.46 754.54,311.46 776.34,281.46 798.13,311.46" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: 290.85px; --y: 241.23px; --r: -242.11deg"/>
+<polygon class="tile t2" points="833.4,262.92 811.6,232.92 833.4,202.92 855.2,232.92" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: 442.72px; --y: -175.92px; --r: 334.41deg"/>
+<polygon class="tile t2" points="925.73,195.84 903.93,165.84 925.73,135.84 947.53,165.84" style="--in: 0.49s; --out: 0.31s; --d: 1.2s; --o: 1; --x: 481.8px; --y: 5.28px; --r: -108.44deg"/>
+<polygon class="tile t2" points="1018.06,165.84 996.26,135.84 1018.06,105.84 1039.86,135.84" style="--in: 0.63s; --out: 0.17s; --d: 1.2s; --o: 1; --x: 258.69px; --y: 20.65px; --r: -240.33deg"/>
+<polygon class="tile t2" points="420.48,420 442.28,390 464.08,420" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: -69.01px; --y: 144.74px; --r: 41.33deg"/>
+<polygon class="tile t2" points="534.61,382.92 512.81,352.92 534.61,322.92 556.41,352.92" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: -87.36px; --y: 191.44px; --r: 54.51deg"/>
+<polygon class="tile t2" points="591.67,341.46 569.88,311.46 591.67,281.46 613.47,311.46" style="--in: 0.14s; --out: 0.66s; --d: 1.2s; --o: 1; --x: -142.75px; --y: 233.6px; --r: 242.98deg"/>
+<polygon class="tile t2" points="684.01,274.38 662.21,244.38 684.01,214.38 705.8,244.38" style="--in: 0.12s; --out: 0.68s; --d: 1.2s; --o: 1; --x: 640.18px; --y: -35.69px; --r: 43.56deg"/>
+<polygon class="tile t2" points="741.07,195.84 719.27,165.84 741.07,135.84 762.86,165.84" style="--in: 0.21s; --out: 0.59s; --d: 1.2s; --o: 1; --x: 562.48px; --y: -104.15px; --r: -72.51deg"/>
+<polygon class="tile t2" points="833.4,165.84 811.6,135.84 833.4,105.84 855.2,135.84" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: 528.99px; --y: 74.19px; --r: 61.18deg"/>
+<polygon class="tile t2" points="925.73,98.75 903.93,68.75 925.73,38.75 947.53,68.75" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: 125.96px; --y: -141.62px; --r: -207.79deg"/>
+<polygon class="tile t2" points="997.48,0 982.79,20.21 968.11,0" style="--in: 0.65s; --out: 0.15s; --d: 1.2s; --o: 1; --x: 148.92px; --y: -169.63px; --r: -358.02deg"/>
+<polygon class="tile t2" points="385.22,371.46 363.42,341.46 385.22,311.46 407.01,341.46" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: -185.55px; --y: 151.09px; --r: 100.81deg"/>
+<polygon class="tile t2" points="477.55,341.46 455.75,311.46 477.55,281.46 499.34,311.46" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: -83.76px; --y: 184.87px; --r: -302.44deg"/>
+<polygon class="tile t2" points="534.61,262.92 512.81,232.92 534.61,202.92 556.41,232.92" style="--in: 0.09s; --out: 0.71s; --d: 1.2s; --o: 1; --x: -472.83px; --y: 299.96px; --r: 219.92deg"/>
+<polygon class="tile t2" points="626.94,195.84 605.15,165.84 626.94,135.84 648.74,165.84" style="--in: 0.06s; --out: 0.74s; --d: 1.2s; --o: 1; --x: 88.9px; --y: -272.85px; --r: 233.63deg"/>
+<polygon class="tile t2" points="684.01,154.38 662.21,124.38 684.01,94.38 705.8,124.38" style="--in: 0.16s; --out: 0.64s; --d: 1.2s; --o: 1; --x: 329.03px; --y: -201.27px; --r: 220.57deg"/>
+<polygon class="tile t2" points="776.34,87.29 754.54,57.29 776.34,27.29 798.13,57.29" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: 333.67px; --y: -134.22px; --r: 91.4deg"/>
+<polygon class="tile t2" points="883.35,0 868.67,20.21 853.98,0" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: 63.79px; --y: -89.37px; --r: -4.32deg"/>
+<polygon class="tile t2" points="292.89,341.46 271.09,311.46 292.89,281.46 314.68,311.46" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -427.92px; --y: 130.9px; --r: 29.62deg"/>
+<polygon class="tile t2" points="385.22,274.38 363.42,244.38 385.22,214.38 407.01,244.38" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: -556.51px; --y: 265.77px; --r: -159.95deg"/>
+<polygon class="tile t2" points="442.28,195.84 420.48,165.84 442.28,135.84 464.08,165.84" style="--in: 0.23s; --out: 0.57s; --d: 1.2s; --o: 1; --x: -343.83px; --y: -281.3px; --r: -141.35deg"/>
+<polygon class="tile t2" points="534.61,165.84 512.81,135.84 534.61,105.84 556.41,135.84" style="--in: 0.13s; --out: 0.67s; --d: 1.2s; --o: 1; --x: -414.66px; --y: -238.84px; --r: -89.07deg"/>
+<polygon class="tile t2" points="591.67,87.29 569.88,57.29 591.67,27.29 613.47,57.29" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 13.62px; --y: -198.14px; --r: -333.39deg"/>
+<polygon class="tile t2" points="698.69,0 684.01,20.21 669.32,0" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 58.22px; --y: -65.71px; --r: 235.87deg"/>
+<polygon class="tile t2" points="200.56,274.38 178.76,244.38 200.56,214.38 222.35,244.38" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: -401.18px; --y: -92.62px; --r: 118.37deg"/>
+<polygon class="tile t2" points="292.89,207.29 271.09,177.29 292.89,147.29 314.68,177.29" style="--in: 0.46s; --out: 0.34s; --d: 1.2s; --o: 1; --x: -423.74px; --y: 100.69px; --r: -43.61deg"/>
+<polygon class="tile t2" points="349.95,165.84 328.15,135.84 349.95,105.84 371.75,135.84" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: -468.64px; --y: -209.65px; --r: 126.49deg"/>
+<polygon class="tile t2" points="442.28,98.75 420.48,68.75 442.28,38.75 464.08,68.75" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: -340.43px; --y: -157.89px; --r: 31.19deg"/>
+<polygon class="tile t2" points="514.03,0 499.34,20.21 484.66,0" style="--in: 0.33s; --out: 0.47s; --d: 1.2s; --o: 1; --x: -44.54px; --y: -75.64px; --r: 335.4deg"/>
+<polygon class="tile t2" points="143.49,195.84 121.7,165.84 143.49,135.84 165.29,165.84" style="--in: 0.69s; --out: 0.11s; --d: 1.2s; --o: 1; --x: -329.06px; --y: -97.39px; --r: -102.63deg"/>
+<polygon class="tile t2" points="235.82,165.84 214.03,135.84 235.82,105.84 257.62,135.84" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: -365.51px; --y: -275.44px; --r: 345.24deg"/>
+<polygon class="tile t2" points="292.89,87.29 271.09,57.29 292.89,27.29 314.68,57.29" style="--in: 0.51s; --out: 0.29s; --d: 1.2s; --o: 1; --x: -429.86px; --y: -68.85px; --r: -82.19deg"/>
+<polygon class="tile t2" points="399.9,0 385.22,20.21 370.53,0" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: -74.3px; --y: -88.39px; --r: -287.66deg"/>
+<polygon class="tile t3" points="143.49,330 165.29,300 200.56,311.46 178.76,341.46" style="--in: 0.66s; --out: 0.14s; --d: 1.2s; --o: 1; --x: -330.35px; --y: 93.77px; --r: -83.51deg"/>
+<polygon class="tile t3" points="306.36,420 314.68,408.54 349.95,420" style="--in: 0.51s; --out: 0.29s; --d: 1.2s; --o: 1; --x: -446.82px; --y: 69.16px; --r: -144.13deg"/>
+<polygon class="tile t3" points="86.43,154.38 108.23,124.38 143.49,135.84 121.7,165.84" style="--in: 0.73s; --out: 0.07s; --d: 1.2s; --o: 1; --x: -244.47px; --y: -117.16px; --r: -163.28deg"/>
+<polygon class="tile t3" points="143.49,232.92 165.29,202.92 200.56,214.38 178.76,244.38" style="--in: 0.64s; --out: 0.16s; --d: 1.2s; --o: 1; --x: -375.39px; --y: 94.01px; --r: 332.45deg"/>
+<polygon class="tile t3" points="235.82,262.92 257.62,232.92 292.89,244.38 271.09,274.38" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: -372.78px; --y: -6.31px; --r: 152.19deg"/>
+<polygon class="tile t3" points="292.89,341.46 314.68,311.46 349.95,322.92 328.15,352.92" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: -221.83px; --y: 185.55px; --r: 30.05deg"/>
+<polygon class="tile t3" points="385.22,371.46 407.01,341.46 442.28,352.92 420.48,382.92" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: -162.13px; --y: 161.66px; --r: 341.38deg"/>
+<polygon class="tile t3" points="491.02,420 499.34,408.54 534.61,420" style="--in: 0.33s; --out: 0.47s; --d: 1.2s; --o: 1; --x: -14.05px; --y: 158.15px; --r: -332.25deg"/>
+<polygon class="tile t3" points="178.76,124.38 200.56,94.38 235.82,105.84 214.03,135.84" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: -305.07px; --y: 52.74px; --r: 354.01deg"/>
+<polygon class="tile t3" points="235.82,165.84 257.62,135.84 292.89,147.29 271.09,177.29" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: -450.8px; --y: -182.31px; --r: -324.37deg"/>
+<polygon class="tile t3" points="328.15,232.92 349.95,202.92 385.22,214.38 363.42,244.38" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: -488.51px; --y: -61.59px; --r: -60.18deg"/>
+<polygon class="tile t3" points="420.48,262.92 442.28,232.92 477.55,244.38 455.75,274.38" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: -561.71px; --y: 41.17px; --r: 9.7deg"/>
+<polygon class="tile t3" points="477.55,341.46 499.34,311.46 534.61,322.92 512.81,352.92" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: -91.9px; --y: 208px; --r: 23.99deg"/>
+<polygon class="tile t3" points="569.88,408.54 591.67,378.54 626.94,390 605.15,420" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: 43.86px; --y: 126.52px; --r: -57.31deg"/>
+<polygon class="tile t3" points="648.74,420 648.74,420 648.74,420" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 39.64px; --y: 151.9px; --r: 102.92deg"/>
+<polygon class="tile t3" points="292.89,87.29 314.68,57.29 349.95,68.75 328.15,98.75" style="--in: 0.46s; --out: 0.34s; --d: 1.2s; --o: 1; --x: -375.47px; --y: -207.52px; --r: -217.91deg"/>
+<polygon class="tile t3" points="385.22,154.38 407.01,124.38 442.28,135.84 420.48,165.84" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: -539.12px; --y: 32.74px; --r: -261.22deg"/>
+<polygon class="tile t3" points="442.28,195.84 464.08,165.84 499.34,177.29 477.55,207.29" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: -620.63px; --y: -148.88px; --r: -265.25deg"/>
+<polygon class="tile t3" points="534.61,262.92 556.41,232.92 591.67,244.38 569.88,274.38" style="--in: 0.07s; --out: 0.73s; --d: 1.2s; --o: 1; --x: -370.39px; --y: 283.62px; --r: -55.31deg"/>
+<polygon class="tile t3" points="591.67,341.46 613.47,311.46 648.74,322.92 626.94,352.92" style="--in: 0.17s; --out: 0.63s; --d: 1.2s; --o: 1; --x: -72px; --y: 277.79px; --r: -200.9deg"/>
+<polygon class="tile t3" points="684.01,371.46 705.8,341.46 741.07,352.92 719.27,382.92" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: 294.33px; --y: 201.65px; --r: -246.78deg"/>
+<polygon class="tile t3" points="789.81,420 798.13,408.54 833.4,420 833.4,420" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: 62.67px; --y: 103.67px; --r: -99.95deg"/>
+<polygon class="tile t3" points="385.22,57.29 407.01,27.29 442.28,38.75 420.48,68.75" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: -217.47px; --y: -210.67px; --r: -358.52deg"/>
+<polygon class="tile t3" points="477.55,87.29 499.34,57.29 534.61,68.75 512.81,98.75" style="--in: 0.23s; --out: 0.57s; --d: 1.2s; --o: 1; --x: -292.88px; --y: -206.71px; --r: -75.98deg"/>
+<polygon class="tile t3" points="534.61,165.84 556.41,135.84 591.67,147.29 569.88,177.29" style="--in: 0.08s; --out: 0.72s; --d: 1.2s; --o: 1; --x: -341.81px; --y: -321.5px; --r: -169.9deg"/>
+<polygon class="tile t3" points="626.94,232.92 648.74,202.92 684.01,214.38 662.21,244.38" style="--in: 0.07s; --out: 0.73s; --d: 1.2s; --o: 1; --x: 666.37px; --y: 326.34px; --r: 189.19deg"/>
+<polygon class="tile t3" points="719.27,262.92 741.07,232.92 776.34,244.38 754.54,274.38" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 525.13px; --y: 284.54px; --r: 219.76deg"/>
+<polygon class="tile t3" points="776.34,341.46 798.13,311.46 833.4,322.92 811.6,352.92" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: 550.77px; --y: 175.82px; --r: 218.08deg"/>
+<polygon class="tile t3" points="868.67,408.54 890.46,378.54 925.73,390 903.93,420" style="--in: 0.52s; --out: 0.28s; --d: 1.2s; --o: 1; --x: 139.67px; --y: 197.52px; --r: 290.81deg"/>
+<polygon class="tile t3" points="499.34,20.21 514.03,0 551.26,0 556.41,1.67 534.61,31.67" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -110.65px; --y: -122.38px; --r: -31.4deg"/>
+<polygon class="tile t3" points="591.67,87.29 613.47,57.29 648.74,68.75 626.94,98.75" style="--in: 0.19s; --out: 0.61s; --d: 1.2s; --o: 1; --x: 119.86px; --y: -198.33px; --r: -169.26deg"/>
+<polygon class="tile t3" points="684.01,154.38 705.8,124.38 741.07,135.84 719.27,165.84" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: 158.31px; --y: -248.3px; --r: 202.12deg"/>
+<polygon class="tile t3" points="741.07,195.84 762.86,165.84 798.13,177.29 776.34,207.29" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: 377.41px; --y: -267.81px; --r: -136.1deg"/>
+<polygon class="tile t3" points="833.4,262.92 855.2,232.92 890.46,244.38 868.67,274.38" style="--in: 0.39s; --out: 0.41s; --d: 1.2s; --o: 1; --x: 457.96px; --y: 91.47px; --r: 275.5deg"/>
+<polygon class="tile t3" points="925.73,330 947.53,300 982.79,311.46 961,341.46" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: 396.12px; --y: 4.13px; --r: 200.03deg"/>
+<polygon class="tile t3" points="684.01,57.29 705.8,27.29 741.07,38.75 719.27,68.75" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: 306.2px; --y: -181.05px; --r: -262.42deg"/>
+<polygon class="tile t3" points="776.34,87.29 798.13,57.29 833.4,68.75 811.6,98.75" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: 558.47px; --y: -160.89px; --r: -56.45deg"/>
+<polygon class="tile t3" points="868.67,154.38 890.46,124.38 925.73,135.84 903.93,165.84" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: 276.63px; --y: -228.04px; --r: 179.61deg"/>
+<polygon class="tile t3" points="925.73,232.92 947.53,202.92 982.79,214.38 961,244.38" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: 355.93px; --y: -141.13px; --r: -176.25deg"/>
+<polygon class="tile t3" points="1018.06,262.92 1039.86,232.92 1075.12,244.38 1053.33,274.38" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: 270.64px; --y: 96.81px; --r: -297.22deg"/>
+<polygon class="tile t3" points="868.67,57.29 890.46,27.29 925.73,38.75 903.93,68.75" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: 197.56px; --y: -143.61px; --r: 156.26deg"/>
+<polygon class="tile t3" points="961,124.38 982.79,94.38 1018.06,105.84 996.26,135.84" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: 371.54px; --y: -165.4px; --r: 27.79deg"/>
+<polygon class="tile t3" points="1018.06,165.84 1039.86,135.84 1075.12,147.29 1053.33,177.29" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: 325.37px; --y: 89.58px; --r: -66.3deg"/>
+<polygon class="tile t3" points="982.79,57.29 1004.59,27.29 1039.86,38.75 1018.06,68.75" style="--in: 0.66s; --out: 0.14s; --d: 1.2s; --o: 1; --x: 320.42px; --y: -131.8px; --r: 267.63deg"/>
+<polygon class="tile t1" points="323.01,0 292.89,0 292.89,27.29 328.15,38.75 328.15,1.67" style="--in: 0.52s; --out: 0.28s; --d: 1.2s; --o: 1; --x: -390.57px; --y: -94.89px; --r: 25.14deg"/>
+<polygon class="tile t1" points="437.14,0 407.01,0 407.01,27.29 442.28,38.75 442.28,1.67" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: -142.75px; --y: -142.76px; --r: -0.83deg"/>
+<polygon class="tile t1" points="499.34,20.21 499.34,57.29 534.61,68.75 534.61,31.67" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: -121.94px; --y: -198.35px; --r: -122.89deg"/>
+<polygon class="tile t1" points="621.8,0 591.67,0 591.67,27.29 626.94,38.75 626.94,1.67" style="--in: 0.28s; --out: 0.52s; --d: 1.2s; --o: 1; --x: 31.44px; --y: -186.59px; --r: -265.93deg"/>
+<polygon class="tile t1" points="735.92,0 705.8,0 705.8,27.29 741.07,38.75 741.07,1.67" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: 87.62px; --y: -209.29px; --r: 335.54deg"/>
+<polygon class="tile t1" points="806.46,0 776.34,0 776.34,27.29 811.6,38.75 811.6,1.67" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: 271.34px; --y: -81.85px; --r: 235.09deg"/>
+<polygon class="tile t1" points="920.58,0 890.46,0 890.46,27.29 925.73,38.75 925.73,1.67" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: 488.57px; --y: -63.23px; --r: 154.76deg"/>
+<polygon class="tile t1" points="108.23,87.29 108.23,124.38 143.49,135.84 143.49,98.75" style="--in: 0.73s; --out: 0.07s; --d: 1.2s; --o: 1; --x: -292.05px; --y: -116.76px; --r: 53.92deg"/>
+<polygon class="tile t1" points="200.56,57.29 200.56,94.38 235.82,105.84 235.82,68.75" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: -272.27px; --y: -191.48px; --r: -197.33deg"/>
+<polygon class="tile t1" points="292.89,87.29 292.89,124.38 328.15,135.84 328.15,98.75" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: -511.91px; --y: 39.95px; --r: 183.51deg"/>
+<polygon class="tile t1" points="407.01,87.29 407.01,124.38 442.28,135.84 442.28,98.75" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: -611.56px; --y: -116.83px; --r: -143.75deg"/>
+<polygon class="tile t1" points="477.55,87.29 477.55,124.38 512.81,135.84 512.81,98.75" style="--in: 0.2s; --out: 0.6s; --d: 1.2s; --o: 1; --x: -178.07px; --y: -219.69px; --r: -205.8deg"/>
+<polygon class="tile t1" points="591.67,87.29 591.67,124.38 626.94,135.84 626.94,98.75" style="--in: 0.13s; --out: 0.67s; --d: 1.2s; --o: 1; --x: -44.25px; --y: -188.89px; --r: -306.4deg"/>
+<polygon class="tile t1" points="684.01,57.29 684.01,94.38 719.27,105.84 719.27,68.75" style="--in: 0.23s; --out: 0.57s; --d: 1.2s; --o: 1; --x: 39.3px; --y: -161.61px; --r: 240.5deg"/>
+<polygon class="tile t1" points="776.34,87.29 776.34,124.38 811.6,135.84 811.6,98.75" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 385.29px; --y: -186.97px; --r: 18deg"/>
+<polygon class="tile t1" points="890.46,87.29 890.46,124.38 925.73,135.84 925.73,98.75" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: 430.04px; --y: -117.45px; --r: -211.33deg"/>
+<polygon class="tile t1" points="982.79,57.29 982.79,94.38 1018.06,105.84 1018.06,68.75" style="--in: 0.63s; --out: 0.17s; --d: 1.2s; --o: 1; --x: 386.81px; --y: -152.69px; --r: -83.71deg"/>
+<polygon class="tile t1" points="51.16,165.84 51.16,202.92 86.43,214.38 86.43,177.29" style="--in: 0.8s; --out: 0s; --d: 1.2s; --o: 1; --x: -273.74px; --y: -11.34px; --r: -192.38deg"/>
+<polygon class="tile t1" points="165.29,165.84 165.29,202.92 200.56,214.38 200.56,177.29" style="--in: 0.62s; --out: 0.18s; --d: 1.2s; --o: 1; --x: -319.11px; --y: -89.41px; --r: 206.9deg"/>
+<polygon class="tile t1" points="257.62,195.84 257.62,232.92 292.89,244.38 292.89,207.29" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -421.6px; --y: 73px; --r: -94.83deg"/>
+<polygon class="tile t1" points="349.95,165.84 349.95,202.92 385.22,214.38 385.22,177.29" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: -556.76px; --y: -270px; --r: 94.91deg"/>
+<polygon class="tile t1" points="442.28,195.84 442.28,232.92 477.55,244.38 477.55,207.29" style="--in: 0.2s; --out: 0.6s; --d: 1.2s; --o: 1; --x: -626.62px; --y: -271.61px; --r: 237.91deg"/>
+<polygon class="tile t1" points="534.61,165.84 534.61,202.92 569.88,214.38 569.88,177.29" style="--in: 0.06s; --out: 0.74s; --d: 1.2s; --o: 1; --x: -283.53px; --y: -285.82px; --r: 350.41deg"/>
+<polygon class="tile t1" points="648.74,165.84 648.74,202.92 684.01,214.38 684.01,177.29" style="--in: 0.09s; --out: 0.71s; --d: 1.2s; --o: 1; --x: 668.62px; --y: -283.31px; --r: -230.17deg"/>
+<polygon class="tile t1" points="741.07,195.84 741.07,232.92 776.34,244.38 776.34,207.29" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 554.69px; --y: 224.82px; --r: 136.33deg"/>
+<polygon class="tile t1" points="833.4,165.84 833.4,202.92 868.67,214.38 868.67,177.29" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: 464.81px; --y: -175.34px; --r: -83.34deg"/>
+<polygon class="tile t1" points="947.53,165.84 947.53,202.92 982.79,214.38 982.79,177.29" style="--in: 0.54s; --out: 0.26s; --d: 1.2s; --o: 1; --x: 306.86px; --y: -100.94px; --r: 194.55deg"/>
+<polygon class="tile t1" points="1018.06,165.84 1018.06,202.92 1053.33,214.38 1053.33,177.29" style="--in: 0.65s; --out: 0.15s; --d: 1.2s; --o: 1; --x: 262.24px; --y: 112.34px; --r: -242.89deg"/>
+<polygon class="tile t1" points="165.29,262.92 165.29,300 200.56,311.46 200.56,274.38" style="--in: 0.63s; --out: 0.17s; --d: 1.2s; --o: 1; --x: -261.6px; --y: 91.18px; --r: 107.81deg"/>
+<polygon class="tile t1" points="235.82,262.92 235.82,300 271.09,311.46 271.09,274.38" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: -398.89px; --y: 145.88px; --r: 292.21deg"/>
+<polygon class="tile t1" points="349.95,262.92 349.95,300 385.22,311.46 385.22,274.38" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: -571.26px; --y: -23.39px; --r: 313.24deg"/>
+<polygon class="tile t1" points="420.48,262.92 420.48,300 455.75,311.46 455.75,274.38" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: -575.06px; --y: 213.25px; --r: -332.92deg"/>
+<polygon class="tile t1" points="534.61,262.92 534.61,300 569.88,311.46 569.88,274.38" style="--in: 0.12s; --out: 0.68s; --d: 1.2s; --o: 1; --x: -43.65px; --y: 276.66px; --r: 256.33deg"/>
+<polygon class="tile t1" points="648.74,262.92 648.74,300 684.01,311.46 684.01,274.38" style="--in: 0.14s; --out: 0.66s; --d: 1.2s; --o: 1; --x: 197.17px; --y: 200.29px; --r: -207.14deg"/>
+<polygon class="tile t1" points="719.27,262.92 719.27,300 754.54,311.46 754.54,274.38" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 221.58px; --y: 216.31px; --r: -216.31deg"/>
+<polygon class="tile t1" points="833.4,262.92 833.4,300 868.67,311.46 868.67,274.38" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: 506.11px; --y: 42.53px; --r: 242.21deg"/>
+<polygon class="tile t1" points="925.73,232.92 925.73,270 961,281.46 961,244.38" style="--in: 0.51s; --out: 0.29s; --d: 1.2s; --o: 1; --x: 411.71px; --y: -59.92px; --r: 21.56deg"/>
+<polygon class="tile t1" points="292.89,341.46 292.89,378.54 328.15,390 328.15,352.92" style="--in: 0.49s; --out: 0.31s; --d: 1.2s; --o: 1; --x: -271.97px; --y: 166.26px; --r: 226.17deg"/>
+<polygon class="tile t1" points="385.22,371.46 385.22,408.54 420.48,420 420.48,382.92" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: -91.31px; --y: 154.89px; --r: -289.5deg"/>
+<polygon class="tile t1" points="499.34,371.46 499.34,408.54 534.61,420 534.61,420 534.61,382.92" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -86.63px; --y: 200.18px; --r: 358.96deg"/>
+<polygon class="tile t1" points="591.67,341.46 591.67,378.54 626.94,390 626.94,352.92" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 13.91px; --y: 165.19px; --r: 57.24deg"/>
+<polygon class="tile t1" points="684.01,371.46 684.01,408.54 719.27,420 719.27,382.92" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 76.67px; --y: 105.39px; --r: 17.64deg"/>
+<polygon class="tile t1" points="776.34,341.46 776.34,378.54 811.6,390 811.6,352.92" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: 156.27px; --y: 230.8px; --r: 344.24deg"/>
+<polygon class="tile t1" points="890.46,341.46 890.46,378.54 925.73,390 925.73,352.92" style="--in: 0.51s; --out: 0.29s; --d: 1.2s; --o: 1; --x: 383.02px; --y: 133.65px; --r: -280.21deg"/>
+<polygon class="tile t2" points="968.11,0 982.79,20.21 982.79,57.29 961,27.29 961,0" style="--in: 0.62s; --out: 0.18s; --d: 1.2s; --o: 1; --x: 265.36px; --y: -157.22px; --r: -191.06deg"/>
+<polygon class="tile t2" points="853.98,0 868.67,20.21 868.67,57.29 846.87,27.29 846.87,0" style="--in: 0.47s; --out: 0.33s; --d: 1.2s; --o: 1; --x: 430.16px; --y: -125.84px; --r: -215.32deg"/>
+<polygon class="tile t2" points="669.32,0 684.01,20.21 684.01,57.29 662.21,27.29 662.21,0" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: 110.21px; --y: -203.06px; --r: 311.67deg"/>
+<polygon class="tile t2" points="484.66,0 499.34,20.21 499.34,57.29 477.55,27.29 477.55,0" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: -208.42px; --y: -174.46px; --r: 198.61deg"/>
+<polygon class="tile t2" points="370.53,0 385.22,20.21 385.22,57.29 363.42,27.29 363.42,0" style="--in: 0.43s; --out: 0.37s; --d: 1.2s; --o: 1; --x: -244.23px; --y: -114.79px; --r: 329.1deg"/>
+<polygon class="tile t2" points="1039.86,98.75 1039.86,135.84 1018.06,105.84 1018.06,68.75" style="--in: 0.66s; --out: 0.14s; --d: 1.2s; --o: 1; --x: 283.13px; --y: -114.4px; --r: 158.41deg"/>
+<polygon class="tile t2" points="890.46,87.29 890.46,124.38 868.67,94.38 868.67,57.29" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: 219.73px; --y: -213.08px; --r: -102.14deg"/>
+<polygon class="tile t2" points="741.07,98.75 741.07,135.84 719.27,105.84 719.27,68.75" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: 302.43px; --y: -228.6px; --r: 100.88deg"/>
+<polygon class="tile t2" points="556.41,98.75 556.41,135.84 534.61,105.84 534.61,68.75" style="--in: 0.17s; --out: 0.63s; --d: 1.2s; --o: 1; --x: -170.92px; --y: -287.75px; --r: 241.69deg"/>
+<polygon class="tile t2" points="407.01,87.29 407.01,124.38 385.22,94.38 385.22,57.29" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: -151.5px; --y: -217.45px; --r: 165.66deg"/>
+<polygon class="tile t2" points="257.62,98.75 257.62,135.84 235.82,105.84 235.82,68.75" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: -359.36px; --y: -82.86px; --r: 109.36deg"/>
+<polygon class="tile t2" points="925.73,195.84 925.73,232.92 903.93,202.92 903.93,165.84" style="--in: 0.47s; --out: 0.33s; --d: 1.2s; --o: 1; --x: 466.82px; --y: 204.15px; --r: -154.65deg"/>
+<polygon class="tile t2" points="741.07,195.84 741.07,232.92 719.27,202.92 719.27,165.84" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: 649.57px; --y: -239.56px; --r: 147.69deg"/>
+<polygon class="tile t2" points="591.67,207.29 591.67,244.38 569.88,214.38 569.88,177.29" style="--in: 0.01s; --out: 0.79s; --d: 1.2s; --o: 1; --x: -673.73px; --y: -223.38px; --r: 260.41deg"/>
+<polygon class="tile t2" points="442.28,195.84 442.28,232.92 420.48,202.92 420.48,165.84" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: -544.28px; --y: 2.43px; --r: -112.86deg"/>
+<polygon class="tile t2" points="257.62,195.84 257.62,232.92 235.82,202.92 235.82,165.84" style="--in: 0.52s; --out: 0.28s; --d: 1.2s; --o: 1; --x: -441.88px; --y: -255.1px; --r: -299.7deg"/>
+<polygon class="tile t2" points="143.49,195.84 143.49,232.92 121.7,202.92 121.7,165.84" style="--in: 0.7s; --out: 0.1s; --d: 1.2s; --o: 1; --x: -310.28px; --y: 50.74px; --r: -334.57deg"/>
+<polygon class="tile t2" points="982.79,274.38 982.79,311.46 961,281.46 961,244.38" style="--in: 0.56s; --out: 0.24s; --d: 1.2s; --o: 1; --x: 306.85px; --y: -89.38px; --r: 265.28deg"/>
+<polygon class="tile t2" points="798.13,274.38 798.13,311.46 776.34,281.46 776.34,244.38" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: 531.62px; --y: 97.68px; --r: 211.21deg"/>
+<polygon class="tile t2" points="613.47,274.38 613.47,311.46 591.67,281.46 591.67,244.38" style="--in: 0.08s; --out: 0.72s; --d: 1.2s; --o: 1; --x: 71.62px; --y: 321.34px; --r: -94.07deg"/>
+<polygon class="tile t2" points="499.34,274.38 499.34,311.46 477.55,281.46 477.55,244.38" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: -272.52px; --y: 253.56px; --r: -239.01deg"/>
+<polygon class="tile t2" points="314.68,274.38 314.68,311.46 292.89,281.46 292.89,244.38" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: -384.69px; --y: 292.67px; --r: 265.24deg"/>
+<polygon class="tile t2" points="165.29,262.92 165.29,300 143.49,270 143.49,232.92" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: -327.46px; --y: 54.6px; --r: 261.11deg"/>
+<polygon class="tile t2" points="833.4,382.92 833.4,420 811.6,390 811.6,352.92" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: 257.82px; --y: 162.08px; --r: 183.45deg"/>
+<polygon class="tile t2" points="648.74,382.92 648.74,420 626.94,390 626.94,352.92" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: 89.85px; --y: 122.41px; --r: 180.24deg"/>
+<polygon class="tile t2" points="499.34,371.46 499.34,408.54 477.55,378.54 477.55,341.46" style="--in: 0.29s; --out: 0.51s; --d: 1.2s; --o: 1; --x: -140.58px; --y: 136.49px; --r: 235.25deg"/>
+<polygon class="tile t2" points="349.95,382.92 349.95,420 328.15,390 328.15,352.92" style="--in: 0.47s; --out: 0.33s; --d: 1.2s; --o: 1; --x: -397.37px; --y: 120.18px; --r: -115deg"/>
+<polygon class="tile t1" points="996.26,232.92 961,244.38 982.79,214.38 1018.06,202.92" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: 344.79px; --y: -127.58px; --r: -280.97deg"/>
+<polygon class="tile t1" points="961,87.29 925.73,98.75 947.53,68.75 982.79,57.29" style="--in: 0.56s; --out: 0.24s; --d: 1.2s; --o: 1; --x: 406.22px; --y: -131.56px; --r: 59deg"/>
+<polygon class="tile t1" points="903.93,300 868.67,311.46 890.46,281.46 925.73,270" style="--in: 0.45s; --out: 0.35s; --d: 1.2s; --o: 1; --x: 466.14px; --y: -76.72px; --r: 181.59deg"/>
+<polygon class="tile t1" points="868.67,154.38 833.4,165.84 855.2,135.84 890.46,124.38" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: 389.97px; --y: -267.37px; --r: 229.72deg"/>
+<polygon class="tile t1" points="846.87,341.46 811.6,352.92 833.4,322.92 868.67,311.46" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: 565.88px; --y: 93.82px; --r: 339.78deg"/>
+<polygon class="tile t1" points="811.6,232.92 776.34,244.38 798.13,214.38 833.4,202.92" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: 591.86px; --y: 169.01px; --r: -164.32deg"/>
+<polygon class="tile t1" points="754.54,57.29 719.27,68.75 741.07,38.75 776.34,27.29" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 261.15px; --y: -205.26px; --r: -327.8deg"/>
+<polygon class="tile t1" points="754.54,408.54 719.27,420 741.07,390 776.34,378.54" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: 44.94px; --y: 126.18px; --r: 216.8deg"/>
+<polygon class="tile t1" points="719.27,262.92 684.01,274.38 705.8,244.38 741.07,232.92" style="--in: 0.17s; --out: 0.63s; --d: 1.2s; --o: 1; --x: 527.96px; --y: 296.99px; --r: -71.28deg"/>
+<polygon class="tile t1" points="662.21,124.38 626.94,135.84 648.74,105.84 684.01,94.38" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: 160.62px; --y: -309.11px; --r: -308.71deg"/>
+<polygon class="tile t1" points="719.27,420 719.27,420 719.27,420" style="--in: 0.35s; --out: 0.45s; --d: 1.2s; --o: 1; --x: 152.49px; --y: 131.19px; --r: 297.54deg"/>
+<polygon class="tile t1" points="662.21,341.46 626.94,352.92 648.74,322.92 684.01,311.46" style="--in: 0.19s; --out: 0.61s; --d: 1.2s; --o: 1; --x: 259.7px; --y: 262.88px; --r: -168.87deg"/>
+<polygon class="tile t1" points="605.15,165.84 569.88,177.29 591.67,147.29 626.94,135.84" style="--in: 0.06s; --out: 0.74s; --d: 1.2s; --o: 1; --x: 134.35px; --y: -354.4px; --r: -342.9deg"/>
+<polygon class="tile t1" points="569.88,57.29 534.61,68.75 556.41,38.75 591.67,27.29" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: -136.07px; --y: -157.03px; --r: 310.45deg"/>
+<polygon class="tile t1" points="569.88,371.46 534.61,382.92 556.41,352.92 591.67,341.46" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: -105.04px; --y: 179.7px; --r: 257.77deg"/>
+<polygon class="tile t1" points="512.81,232.92 477.55,244.38 499.34,214.38 534.61,202.92" style="--in: 0.13s; --out: 0.67s; --d: 1.2s; --o: 1; --x: -627.07px; --y: 219.52px; --r: -222.86deg"/>
+<polygon class="tile t1" points="477.55,87.29 442.28,98.75 464.08,68.75 499.34,57.29" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: -85.98px; --y: -263.7px; --r: -27.05deg"/>
+<polygon class="tile t1" points="491.02,420 464.08,420 499.34,408.54" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: -56.14px; --y: 199.93px; --r: -74.29deg"/>
+<polygon class="tile t1" points="420.48,262.92 385.22,274.38 407.01,244.38 442.28,232.92" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: -472.08px; --y: 269.97px; --r: 157.77deg"/>
+<polygon class="tile t1" points="385.22,154.38 349.95,165.84 371.75,135.84 407.01,124.38" style="--in: 0.34s; --out: 0.46s; --d: 1.2s; --o: 1; --x: -363.95px; --y: -225.98px; --r: 321.07deg"/>
+<polygon class="tile t1" points="363.42,341.46 328.15,352.92 349.95,322.92 385.22,311.46" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: -437.92px; --y: 131.07px; --r: 242.95deg"/>
+<polygon class="tile t1" points="328.15,195.84 292.89,207.29 314.68,177.29 349.95,165.84" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -499.32px; --y: -310.16px; --r: -352.95deg"/>
+<polygon class="tile t1" points="271.09,57.29 235.82,68.75 257.62,38.75 292.89,27.29" style="--in: 0.55s; --out: 0.25s; --d: 1.2s; --o: 1; --x: -347.3px; --y: -156.22px; --r: 279.36deg"/>
+<polygon class="tile t1" points="235.82,262.92 200.56,274.38 222.35,244.38 257.62,232.92" style="--in: 0.56s; --out: 0.24s; --d: 1.2s; --o: 1; --x: -312.83px; --y: 35.94px; --r: 312.14deg"/>
+<polygon class="tile t1" points="178.76,87.29 143.49,98.75 165.29,68.75 200.56,57.29" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: -213.86px; --y: -199.57px; --r: -321.52deg"/>
+<polygon class="tile t1" points="86.43,154.38 51.16,165.84 72.96,135.84 108.23,124.38" style="--in: 0.79s; --out: 0.01s; --d: 1.2s; --o: 1; --x: -250.47px; --y: -125.03px; --r: 339.29deg"/>
+<polygon class="tile t0" points="876.99,420 868.67,408.54 903.93,420 903.93,420" style="--in: 0.53s; --out: 0.27s; --d: 1.2s; --o: 1; --x: 434.26px; --y: 56.86px; --r: -155.66deg"/>
+<polygon class="tile t0" points="798.13,408.54 776.34,378.54 811.6,390 833.4,420" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: 354.5px; --y: 130.83px; --r: -114.33deg"/>
+<polygon class="tile t0" points="947.53,300 925.73,270 961,281.46 982.79,311.46" style="--in: 0.54s; --out: 0.26s; --d: 1.2s; --o: 1; --x: 337.35px; --y: -81.48px; --r: 220.32deg"/>
+<polygon class="tile t0" points="1039.86,232.92 1018.06,202.92 1053.33,214.38 1075.12,244.38" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: 257.36px; --y: 35.33px; --r: 141.15deg"/>
+<polygon class="tile t0" points="578.2,420 569.88,408.54 605.15,420 605.15,420" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: 51.68px; --y: 156.26px; --r: 111.63deg"/>
+<polygon class="tile t0" points="705.8,341.46 684.01,311.46 719.27,322.92 741.07,352.92" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: 536.25px; --y: 184.89px; --r: 162.95deg"/>
+<polygon class="tile t0" points="855.2,232.92 833.4,202.92 868.67,214.38 890.46,244.38" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: 510.09px; --y: 163.73px; --r: 277.23deg"/>
+<polygon class="tile t0" points="982.79,154.38 961,124.38 996.26,135.84 1018.06,165.84" style="--in: 0.59s; --out: 0.21s; --d: 1.2s; --o: 1; --x: 419.01px; --y: 38.29px; --r: -61.34deg"/>
+<polygon class="tile t0" points="349.95,420 349.95,420 349.95,420" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -26.57px; --y: 61.74px; --r: -152.8deg"/>
+<polygon class="tile t0" points="499.34,371.46 477.55,341.46 512.81,352.92 534.61,382.92" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: -13.88px; --y: 146.13px; --r: 13.52deg"/>
+<polygon class="tile t0" points="648.74,262.92 626.94,232.92 662.21,244.38 684.01,274.38" style="--in: 0.09s; --out: 0.71s; --d: 1.2s; --o: 1; --x: 574.44px; --y: 255.94px; --r: 173.86deg"/>
+<polygon class="tile t0" points="762.86,165.84 741.07,135.84 776.34,147.29 798.13,177.29" style="--in: 0.25s; --out: 0.55s; --d: 1.2s; --o: 1; --x: 630.46px; --y: 31.21px; --r: -93.15deg"/>
+<polygon class="tile t0" points="890.46,87.29 868.67,57.29 903.93,68.75 925.73,98.75" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: 498.84px; --y: -105.43px; --r: -251.31deg"/>
+<polygon class="tile t0" points="314.68,408.54 292.89,378.54 328.15,390 349.95,420" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: -134.47px; --y: 168.14px; --r: -168.8deg"/>
+<polygon class="tile t0" points="407.01,341.46 385.22,311.46 420.48,322.92 442.28,352.92" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: -164.67px; --y: 202.45px; --r: -348.49deg"/>
+<polygon class="tile t0" points="556.41,232.92 534.61,202.92 569.88,214.38 591.67,244.38" style="--in: 0.04s; --out: 0.76s; --d: 1.2s; --o: 1; --x: -614.13px; --y: 271.54px; --r: -183.81deg"/>
+<polygon class="tile t0" points="705.8,124.38 684.01,94.38 719.27,105.84 741.07,135.84" style="--in: 0.21s; --out: 0.59s; --d: 1.2s; --o: 1; --x: 152.01px; --y: -228.12px; --r: -269.72deg"/>
+<polygon class="tile t0" points="798.13,57.29 776.34,27.29 811.6,38.75 833.4,68.75" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: 221.73px; --y: -185.93px; --r: -115.97deg"/>
+<polygon class="tile t0" points="222.35,341.46 200.56,311.46 235.82,322.92 257.62,352.92" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: -428.21px; --y: -46.84px; --r: -139.67deg"/>
+<polygon class="tile t0" points="349.95,262.92 328.15,232.92 363.42,244.38 385.22,274.38" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: -413.03px; --y: 306.62px; --r: -187.19deg"/>
+<polygon class="tile t0" points="464.08,165.84 442.28,135.84 477.55,147.29 499.34,177.29" style="--in: 0.19s; --out: 0.61s; --d: 1.2s; --o: 1; --x: -626.94px; --y: -143.06px; --r: 359.19deg"/>
+<polygon class="tile t0" points="613.47,57.29 591.67,27.29 626.94,38.75 648.74,68.75" style="--in: 0.23s; --out: 0.57s; --d: 1.2s; --o: 1; --x: -14.48px; --y: -189.67px; --r: 91.76deg"/>
+<polygon class="tile t0" points="165.29,262.92 143.49,232.92 178.76,244.38 200.56,274.38" style="--in: 0.64s; --out: 0.16s; --d: 1.2s; --o: 1; --x: -275.74px; --y: -22.59px; --r: 68.63deg"/>
+<polygon class="tile t0" points="257.62,195.84 235.82,165.84 271.09,177.29 292.89,207.29" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: -433.76px; --y: -49.58px; --r: -277.2deg"/>
+<polygon class="tile t0" points="407.01,87.29 385.22,57.29 420.48,68.75 442.28,98.75" style="--in: 0.33s; --out: 0.47s; --d: 1.2s; --o: 1; --x: -626.55px; --y: -155.16px; --r: 231.34deg"/>
+<polygon class="tile t0" points="551.26,0 555.19,0 556.41,1.67" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 20.18px; --y: -178.39px; --r: 331.67deg"/>
+<polygon class="tile t0" points="72.96,232.92 51.16,202.92 86.43,214.38 108.23,244.38" style="--in: 0.78s; --out: 0.02s; --d: 1.2s; --o: 1; --x: -262.91px; --y: 35.1px; --r: 101.97deg"/>
+<polygon class="tile t0" points="200.56,154.38 178.76,124.38 214.03,135.84 235.82,165.84" style="--in: 0.59s; --out: 0.21s; --d: 1.2s; --o: 1; --x: -377.9px; --y: -85.94px; --r: -130.01deg"/>
+<polygon class="tile t0" points="314.68,57.29 292.89,27.29 328.15,38.75 349.95,68.75" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -135.79px; --y: -167.24px; --r: -253.31deg"/>
+<polygon class="tile t2" points="399.9,0 385.22,20.21 385.22,57.29 407.01,27.29 407.01,0" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -452.55px; --y: -120.62px; --r: -193.23deg"/>
+<polygon class="tile t2" points="534.61,31.67 534.61,68.75 556.41,38.75 556.41,1.67" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: 21.11px; --y: -136.14px; --r: -132.35deg"/>
+<polygon class="tile t2" points="698.69,0 684.01,20.21 684.01,57.29 705.8,27.29 705.8,0" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 198.1px; --y: -140.89px; --r: 303.86deg"/>
+<polygon class="tile t2" points="883.35,0 868.67,20.21 868.67,57.29 890.46,27.29 890.46,0" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: 315.19px; --y: -101.62px; --r: -204.49deg"/>
+<polygon class="tile t2" points="178.76,87.29 178.76,124.38 200.56,94.38 200.56,57.29" style="--in: 0.64s; --out: 0.16s; --d: 1.2s; --o: 1; --x: -390.8px; --y: -67.01px; --r: -119.53deg"/>
+<polygon class="tile t2" points="328.15,98.75 328.15,135.84 349.95,105.84 349.95,68.75" style="--in: 0.41s; --out: 0.39s; --d: 1.2s; --o: 1; --x: -478.28px; --y: -177.04px; --r: -126.18deg"/>
+<polygon class="tile t2" points="512.81,98.75 512.81,135.84 534.61,105.84 534.61,68.75" style="--in: 0.18s; --out: 0.62s; --d: 1.2s; --o: 1; --x: -62.41px; --y: -182.34px; --r: -197.34deg"/>
+<polygon class="tile t2" points="626.94,98.75 626.94,135.84 648.74,105.84 648.74,68.75" style="--in: 0.16s; --out: 0.64s; --d: 1.2s; --o: 1; --x: 192.63px; --y: -246.7px; --r: 8.51deg"/>
+<polygon class="tile t2" points="811.6,98.75 811.6,135.84 833.4,105.84 833.4,68.75" style="--in: 0.36s; --out: 0.44s; --d: 1.2s; --o: 1; --x: 281.94px; --y: -185.24px; --r: -31.12deg"/>
+<polygon class="tile t2" points="961,87.29 961,124.38 982.79,94.38 982.79,57.29" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: 387.34px; --y: 69.29px; --r: 55.14deg"/>
+<polygon class="tile t2" points="143.49,195.84 143.49,232.92 165.29,202.92 165.29,165.84" style="--in: 0.67s; --out: 0.13s; --d: 1.2s; --o: 1; --x: -341.1px; --y: -192.57px; --r: 359.42deg"/>
+<polygon class="tile t2" points="328.15,195.84 328.15,232.92 349.95,202.92 349.95,165.84" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: -498.56px; --y: -268.7px; --r: -140.18deg"/>
+<polygon class="tile t2" points="477.55,207.29 477.55,244.38 499.34,214.38 499.34,177.29" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: -612.07px; --y: -74.21px; --r: 223.75deg"/>
+<polygon class="tile t2" points="626.94,195.84 626.94,232.92 648.74,202.92 648.74,165.84" style="--in: 0.04s; --out: 0.76s; --d: 1.2s; --o: 1; --x: 422.9px; --y: -312.5px; --r: 245.36deg"/>
+<polygon class="tile t2" points="776.34,207.29 776.34,244.38 798.13,214.38 798.13,177.29" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: 574.19px; --y: -23.57px; --r: -289.24deg"/>
+<polygon class="tile t2" points="925.73,195.84 925.73,232.92 947.53,202.92 947.53,165.84" style="--in: 0.5s; --out: 0.3s; --d: 1.2s; --o: 1; --x: 473.02px; --y: -118.99px; --r: 113deg"/>
+<polygon class="tile t2" points="86.43,274.38 86.43,311.46 108.23,281.46 108.23,244.38" style="--in: 0.76s; --out: 0.04s; --d: 1.2s; --o: 1; --x: -243.58px; --y: 67.25px; --r: 197.91deg"/>
+<polygon class="tile t2" points="271.09,274.38 271.09,311.46 292.89,281.46 292.89,244.38" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: -476.78px; --y: -36.81px; --r: -151.46deg"/>
+<polygon class="tile t2" points="455.75,274.38 455.75,311.46 477.55,281.46 477.55,244.38" style="--in: 0.21s; --out: 0.59s; --d: 1.2s; --o: 1; --x: -308.68px; --y: 277.78px; --r: 19.58deg"/>
+<polygon class="tile t2" points="569.88,274.38 569.88,311.46 591.67,281.46 591.67,244.38" style="--in: 0.09s; --out: 0.71s; --d: 1.2s; --o: 1; --x: -86.66px; --y: 244.43px; --r: -130.59deg"/>
+<polygon class="tile t2" points="754.54,274.38 754.54,311.46 776.34,281.46 776.34,244.38" style="--in: 0.26s; --out: 0.54s; --d: 1.2s; --o: 1; --x: 329.62px; --y: 246.24px; --r: 185.39deg"/>
+<polygon class="tile t2" points="868.67,274.38 868.67,311.46 890.46,281.46 890.46,244.38" style="--in: 0.42s; --out: 0.38s; --d: 1.2s; --o: 1; --x: 530.58px; --y: -115.88px; --r: -210.19deg"/>
+<polygon class="tile t2" points="420.48,382.92 420.48,420 420.48,420 442.28,390 442.28,352.92" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: -185.77px; --y: 208.14px; --r: -177.49deg"/>
+<polygon class="tile t2" points="569.88,371.46 569.88,408.54 591.67,378.54 591.67,341.46" style="--in: 0.24s; --out: 0.56s; --d: 1.2s; --o: 1; --x: 41.34px; --y: 261.76px; --r: 291.19deg"/>
+<polygon class="tile t2" points="719.27,382.92 719.27,420 741.07,390 741.07,352.92" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 78.1px; --y: 113.34px; --r: 75.36deg"/>
+<polygon class="tile t2" points="868.67,371.46 868.67,408.54 890.46,378.54 890.46,341.46" style="--in: 0.48s; --out: 0.32s; --d: 1.2s; --o: 1; --x: 423.25px; --y: 123.89px; --r: 311.14deg"/>
+<polygon class="tile t0" points="920.58,0 925.73,1.67 930.87,0" style="--in: 0.58s; --out: 0.22s; --d: 1.2s; --o: 1; --x: 147.43px; --y: -71.58px; --r: -314.89deg"/>
+<polygon class="tile t0" points="982.79,154.38 947.53,165.84 982.79,177.29 1018.06,165.84" style="--in: 0.57s; --out: 0.23s; --d: 1.2s; --o: 1; --x: 413.94px; --y: -102.72px; --r: -142.07deg"/>
+<polygon class="tile t0" points="806.46,0 811.6,1.67 816.75,0" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: 81.95px; --y: -116.42px; --r: -178.46deg"/>
+<polygon class="tile t0" points="868.67,154.38 833.4,165.84 868.67,177.29 903.93,165.84" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: 517.06px; --y: -55.01px; --r: -153.59deg"/>
+<polygon class="tile t0" points="925.73,330 890.46,341.46 925.73,352.92 961,341.46" style="--in: 0.52s; --out: 0.28s; --d: 1.2s; --o: 1; --x: 426.73px; --y: 158.84px; --r: -98.4deg"/>
+<polygon class="tile t0" points="735.92,0 741.07,1.67 746.21,0" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: 19.3px; --y: -58.94px; --r: 47.15deg"/>
+<polygon class="tile t0" points="776.34,124.38 741.07,135.84 776.34,147.29 811.6,135.84" style="--in: 0.27s; --out: 0.53s; --d: 1.2s; --o: 1; --x: 498.79px; --y: 19.61px; --r: 263.28deg"/>
+<polygon class="tile t0" points="833.4,300 798.13,311.46 833.4,322.92 868.67,311.46" style="--in: 0.37s; --out: 0.43s; --d: 1.2s; --o: 1; --x: 203.54px; --y: 242.51px; --r: 336.88deg"/>
+<polygon class="tile t0" points="621.8,0 626.94,1.67 632.09,0" style="--in: 0.31s; --out: 0.49s; --d: 1.2s; --o: 1; --x: 41.21px; --y: -119.25px; --r: -26.15deg"/>
+<polygon class="tile t0" points="684.01,154.38 648.74,165.84 684.01,177.29 719.27,165.84" style="--in: 0.13s; --out: 0.67s; --d: 1.2s; --o: 1; --x: 506.21px; --y: -288.24px; --r: -191.16deg"/>
+<polygon class="tile t0" points="719.27,300 684.01,311.46 719.27,322.92 754.54,311.46" style="--in: 0.22s; --out: 0.58s; --d: 1.2s; --o: 1; --x: 181.77px; --y: 238.84px; --r: 125.76deg"/>
+<polygon class="tile t0" points="591.67,124.38 556.41,135.84 591.67,147.29 626.94,135.84" style="--in: 0.09s; --out: 0.71s; --d: 1.2s; --o: 1; --x: 82.28px; --y: -240.95px; --r: -69.68deg"/>
+<polygon class="tile t0" points="648.74,300 613.47,311.46 648.74,322.92 684.01,311.46" style="--in: 0.15s; --out: 0.65s; --d: 1.2s; --o: 1; --x: 148.96px; --y: 187px; --r: 87.9deg"/>
+<polygon class="tile t0" points="684.01,408.54 648.74,420 648.74,420 719.27,420 719.27,420" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: 57.05px; --y: 218.13px; --r: 72.74deg"/>
+<polygon class="tile t0" points="437.14,0 442.28,1.67 447.43,0" style="--in: 0.38s; --out: 0.42s; --d: 1.2s; --o: 1; --x: -130.88px; --y: -140.68px; --r: -348.92deg"/>
+<polygon class="tile t0" points="477.55,124.38 442.28,135.84 477.55,147.29 512.81,135.84" style="--in: 0.2s; --out: 0.6s; --d: 1.2s; --o: 1; --x: -654.77px; --y: -236.99px; --r: -243.73deg"/>
+<polygon class="tile t0" points="534.61,300 499.34,311.46 534.61,322.92 569.88,311.46" style="--in: 0.17s; --out: 0.63s; --d: 1.2s; --o: 1; --x: -136.7px; --y: 295.17px; --r: -111.83deg"/>
+<polygon class="tile t0" points="323.01,0 328.15,1.67 333.3,0" style="--in: 0.51s; --out: 0.29s; --d: 1.2s; --o: 1; --x: -223.13px; --y: -94.19px; --r: -304.26deg"/>
+<polygon class="tile t0" points="385.22,154.38 349.95,165.84 385.22,177.29 420.48,165.84" style="--in: 0.32s; --out: 0.48s; --d: 1.2s; --o: 1; --x: -419.99px; --y: -263.01px; --r: -210.4deg"/>
+<polygon class="tile t0" points="420.48,300 385.22,311.46 420.48,322.92 455.75,311.46" style="--in: 0.3s; --out: 0.5s; --d: 1.2s; --o: 1; --x: -373.18px; --y: 216.93px; --r: 334.58deg"/>
+<polygon class="tile t0" points="292.89,124.38 257.62,135.84 292.89,147.29 328.15,135.84" style="--in: 0.47s; --out: 0.33s; --d: 1.2s; --o: 1; --x: -425.47px; --y: -226.64px; --r: 42.8deg"/>
+<polygon class="tile t0" points="349.95,300 314.68,311.46 349.95,322.92 385.22,311.46" style="--in: 0.4s; --out: 0.4s; --d: 1.2s; --o: 1; --x: -406.98px; --y: 259.19px; --r: -82.12deg"/>
+<polygon class="tile t0" points="420.48,420 385.22,408.54 349.95,420" style="--in: 0.44s; --out: 0.36s; --d: 1.2s; --o: 1; --x: -282.02px; --y: 112.41px; --r: 299.62deg"/>
+<polygon class="tile t0" points="200.56,154.38 165.29,165.84 200.56,177.29 235.82,165.84" style="--in: 0.6s; --out: 0.2s; --d: 1.2s; --o: 1; --x: -334.67px; --y: 11.82px; --r: -94.08deg"/>
+<polygon class="tile t0" points="235.82,300 200.56,311.46 235.82,322.92 271.09,311.46" style="--in: 0.56s; --out: 0.24s; --d: 1.2s; --o: 1; --x: -449.33px; --y: -24.89px; --r: 233.69deg"/>
+<polygon class="tile t0" points="86.43,154.38 51.16,165.84 86.43,177.29 121.7,165.84" style="--in: 0.78s; --out: 0.02s; --d: 1.2s; --o: 1; --x: -281.67px; --y: -10.48px; --r: 165.73deg"/>
+</svg>

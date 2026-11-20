@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://trailmarker.io/blog/category/notes/</id>
+    <title>Notes, from Trailmarker</title>
+    <updated>1970-01-01T00:00:00.000Z</updated>
+    <author>
+        <name>Trailmarker</name>
+    </author>
+    <link rel="alternate" href="https://trailmarker.io/blog/category/notes/"/>
+    <link rel="self" href="https://trailmarker.io/blog/category/notes/atom.xml"/>
+    <subtitle>Shorter pieces, and reading worth passing on.</subtitle>
+</feed>

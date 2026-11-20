@@ -1,0 +1,4 @@
+Contact: mailto:info@trailmarker.io
+Expires: 2027-05-19T21:56:49Z
+Canonical: https://trailmarker.io/.well-known/security.txt
+Preferred-Languages: en

@@ -1,0 +1,3 @@
+# Trailmarker reserves all rights in this site, AI training included.
+User-Agent: *
+Disallow: /
