@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://trailmarker.io/blog/category/policy/</id>
+    <title>Policy, from Trailmarker</title>
+    <updated>1970-01-01T00:00:00.000Z</updated>
+    <author>
+        <name>Trailmarker</name>
+    </author>
+    <link rel="alternate" href="https://trailmarker.io/blog/category/policy/"/>
+    <link rel="self" href="https://trailmarker.io/blog/category/policy/atom.xml"/>
+    <subtitle>The positions Trailmarker takes on how software and its data are governed.</subtitle>
+</feed>

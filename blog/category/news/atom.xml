@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://trailmarker.io/blog/category/news/</id>
+    <title>News, from Trailmarker</title>
+    <updated>2026-11-24T00:00:00.000Z</updated>
+    <author>
+        <name>Trailmarker</name>
+    </author>
+    <link rel="alternate" href="https://trailmarker.io/blog/category/news/"/>
+    <link rel="self" href="https://trailmarker.io/blog/category/news/atom.xml"/>
+    <subtitle>What is happening at Trailmarker.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Good taste and Alpoge's proof of the Riemann Hypothesis]]></title>
+        <id>https://trailmarker.io/blog/good-taste-and-alpoge-s-proof-of-the-riemann-hypothesis/</id>
+        <link href="https://trailmarker.io/blog/good-taste-and-alpoge-s-proof-of-the-riemann-hypothesis/"/>
+        <updated>2026-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Levent Alpoge proved the Riemann Hypothesis working with Claude, but his remarks about the proof process show the importance of good taste and intuition to the work.]]></summary>
+        <content type="html"><![CDATA[<blockquote cite="https://alpo.ge/remark.pdf"><p>“I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis …</p><footer>Levent Alpoge, <cite><a href="https://alpo.ge/remark.pdf">Remark</a></cite></footer></blockquote>
+<p>These are the opening remarks of American-Turkish mathematician Levent Alpoge, <a href="https://alpo.ge/remark.pdf">writing about his work with Claude to produce 17 million lines of Lean code</a>, which other researchers have verified serve to prove the famous Riemann Hypothesis.</p>
+<p>Alpoge writes among other details that he has worked to develop the far-reaching mathematical insights needed to approach a proof of the Riemann hypothesis since childhood.</p>
+<blockquote><p>“An astounding amount of mathematics is present in the argument, far more than I had imagined would be necessary as a student. My intuition insists it will be massively simplified, likely immediately …</p><p>[…]</p><p>I have benefited from the good taste of the people at OpenAI involved with various mathematical results … [the] Ehrhart conjecture was one such tasteful choice some time ago … working out the equality case I saw accurate handling of solutions of the Monge-Ampère equation and immediately understood Navier-Stokes was going to fall … their quiet inclusion of the Siegel argument, whose result was strictly dominated by the (2, 3, 6)-triangle group trick, again showed great taste … I immediately recognized it as Stepanov without multiplicity, though it was only clear to me during this rather harebrained tornado through the whole of number theory that this problem would fall given enough all-nighters and physical toll …”</p></blockquote>
+<p>The critical factor of mathematical <a href="https://en.wikipedia.org/wiki/Intuitionism">intuition</a> in the success of Alpoge’s work is keenly felt. A human would have to type day and night for a couple of years at 100 words per minute to produce the millions of lines of Lean that serve as the proof, but Alpoge declares an ambiguous and intensive “good taste”, that he also attributes to other recent leaps in mathematical knowledge, as critical to this AI-assisted success.</p>]]></content>
+        <category label="Editorials" term="Editorials"/>
+        <category label="News" term="News"/>
+        <category label="Theory" term="Theory"/>
+        <published>2026-11-24T00:00:00.000Z</published>
+    </entry>
+</feed>

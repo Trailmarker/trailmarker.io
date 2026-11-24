@@ -1,0 +1,1 @@
+export{t as TEXT_KEY,n as TEXT_SIZES,i as createTextSize,r as default,a as setTextSize}from"./TextSize.7CHhrkgn.js";

@@ -1,0 +1,1 @@
+for(let e of document.querySelectorAll(`.post-cards [data-href]`))e.addEventListener(`click`,t=>{t.target instanceof Element&&t.target.closest(`button`)!==null||globalThis.location.assign(e.dataset.href??``)});
